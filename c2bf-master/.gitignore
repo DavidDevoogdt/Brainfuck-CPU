@@ -1,0 +1,5 @@
+~*
+*.swp
+
+_build
+c2bf.native
