@@ -8,7 +8,8 @@ Build
 
 just run `make` or `make c`
 to use make c da a make in the c
-bf-master folder
+bf master folder
+
 Examples
 ---
 some programs can be found in the program/examples. just copy paste to program.be
