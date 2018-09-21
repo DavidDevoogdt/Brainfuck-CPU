@@ -6,7 +6,7 @@ As a side project I've implemented a  [Brainfuck](https://en.wikipedia.org/wiki/
 Workings of the cpu
 ---
 Because it has a cache for the dataoperations read and write instructions to the ram must be inserted. The cpu uses a finite state machine with 16 internal states to decide the next instruction at rumtine.
-
+read documentation for more info.
 
 
 Build
