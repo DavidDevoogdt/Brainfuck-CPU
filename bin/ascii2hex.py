@@ -1,3 +1,4 @@
+ 
 import sys, getopt
 
 inputfile = ''
@@ -21,27 +22,13 @@ print('Output file is "%s"'%(outputfile))
 ofile = open(outputfile, 'w')
 ifile = open(inputfile, 'r')
 
-ofile.write("000 001 ")
-
-opcode = {
-        ">":"000",
-        "<":"001",
-        "+":"010",
-        "-":"011",
-        ".":"100",
-        ",":"101",
-        "[":"110",
-        "]":"111"
-    }
-
 
 while True:
-    char=ifile.read(1)
+    char = ifile.read(1)
     if not char:
         break
-    o = opcode.get(char,"")
-    if char != "":
-        ofile.write(o+" ")
+    ofile.write("%s "%format(ord(char),'02x'))
+ofile.write("00");
 
 ifile.close()
 ofile.close()

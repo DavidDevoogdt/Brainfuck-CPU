@@ -1,64 +1,65 @@
- module main;
+ module BFCPU(clk,IR,OW,INPD,OUTPD,reset,RD,WD,RDATA,WDATA,RF,WF,DP,PCDELTA,NEXTOP) ;
+ 
+    
+    input wire clk,WF,RF;
+    input wire [15:0]  INPD;
+    input wire [7:0] RDATA;
+    input wire [2:0] NEXTOP;
+    
+    output reg reset;
+    output wire [15:0] OUTPD;
+    output wire [7:0] WDATA;
+    output wire [14:0] DP;
+    output wire IR,OW,RD,WD;
+    output wire [15:0] PCDELTA;
+
+ 
     wire [15:0] PC;
     wire [3:0] INST;
-    wire [14:0] DP;
-    wire [7:0] WDATA;
-    wire [7:0] RDATA;  
-    wire RF;
-    wire WF;
-    reg clk = 0;
+    wire SGN;
+    wire INP;
+    wire OUTP;
+    wire DOP;
+    wire DPOP;
+    wire LD;
+    wire IZ;
     
-    //Instruction decode
-    wire SGN = INST[0]; 
-    wire INP = INST[3:0]==4'b0101; 
-    wire OUTP = INST[3:0]==4'b0100; 
-    wire DOP = INST[3:1]==3'b001; 
-    wire DPOP = INST[3:1]==3'b000;  
-    wire RD = INST[3:0]==4'b1100;
-    wire WD = INST[3:0]==4'b1101;
-    wire LD = INST[3:0]==4'b1011;
+    assign SGN = INST[0]; 
+    assign INP = INST[3:0]==4'b0101; 
+    assign OUTP = INST[3:0]==4'b0100; 
+    assign DOP = INST[3:1]==3'b001; 
+    assign DPOP = INST[3:1]==3'b000;  
+    assign LD = INST[3:0]==4'b1011;
+    assign RD = INST[3:0]==4'b1100;
+    assign WD = INST[3:0]==4'b1101;
 
     
-    OPC OPC1(IZ,PC,RF,WF,INST,clk);
+    OPC OPC1(IZ,RF,WF,INST,clk,PCDELTA,NEXTOP);
     DPC DPC1(DPOP,SGN,clk,DP);
-    DC DC1(DOP,INP,OUTP,SGN,RDATA,WDATA,LD,IZ,clk);
-    DMEMC DMEMC1(RD,WD,WDATA,DP,RF,WF,RDATA,clk);
-
+    DC DC1(DOP,INP,OUTP,SGN,RDATA,WDATA,LD,IZ,clk,INPD,OUTPD,IR,OW);
+    
     initial begin
-        $dumpfile("outp/my_dumpfile.vcd"); 
-        $dumpvars(0,main);
-        //#200 $finish;
+        reset=0;
     end
 
-    always #1 clk = !clk;
-
-    always @(posedge clk)
-    begin 
-        //$display(" INST %b DP %d WDATA %0d PC=%d",INST,DP,WDATA,PC);
-    
-        //$display(PC);
-        //check if last inst from mem is fetched
+    always @(posedge clk) begin 
+        //$display("INST %b",INST);
         if((^INST === 1'bx)) begin
-            
-            $display("\ntime is %d",$time);
-            $finish;
+            reset <=1;
         end
     end
 endmodule
 
-
-
-
-module OPC(IZ,PC,RF,WF,INST,clk);
+module OPC(IZ,RF,WF,INST,clk,PCDELTA,NEXTOP);
     input clk;
     input IZ,RF,WF;
-    output reg [15:0] PC;
+    
     output reg [3:0] INST;
+    output reg [15:0] PCDELTA = 0;
+    input wire [2:0] NEXTOP;
     
     
     reg [7:0] bracketcount;
-    reg [2:0] IMEM [65536-1:0];
-    reg [2:0] NEXTOP;  //next true inst from program
     reg [3:0] NEXTSTATE; //next state
 
     //decoding of current inst
@@ -91,19 +92,16 @@ module OPC(IZ,PC,RF,WF,INST,clk);
     NBNZ     =4'b111;
     
     
-    integer PCDELTA = 0;
+    
     integer bracketdelta = 0;
     
     initial begin
-        $readmemb("storage_files/program.bin", IMEM);
-        PC = 1;
-        NEXTOP = IMEM[1];
-        INST = { 1'b0,IMEM[0]};
+        
+        
+        INST = DI;
     end
     
-    
-    
-    
+
     
     always @(NEXTOP,INST,IZ,RF,WF,clk) begin
         case (INST)
@@ -341,7 +339,7 @@ module OPC(IZ,PC,RF,WF,INST,clk);
                         //$display(INST);
                         //$display("something went wrong");
                         //$finish;
-                        NEXTOP = NOP;
+                        //NEXTOP = NOP;
                     end
         endcase
             
@@ -351,23 +349,14 @@ module OPC(IZ,PC,RF,WF,INST,clk);
     
     always @(posedge clk) begin
         
-        PC <= PC + PCDELTA;
-        INST <= NEXTSTATE;
-        if(PCDELTA != 0) begin
-            NEXTOP <= IMEM[PC+PCDELTA];
-        end
+        //$display("INST %0b NEXTSTATE %0b NEXTOP %0b",INST , NEXTSTATE, NEXTOP);
         
+        INST <= NEXTSTATE;
         if(bracketdelta !=0) begin
             bracketcount <=bracketcount+ bracketdelta;
             bracketdelta <=0;
         end
-        
-        //$display("bracketcount",bracketcount);
-        /*if(NEXTSTATE == WD)
-            $display("Writing)");
-        if(NEXTSTATE == RD)
-            $display("Reading");
-        */
+
     end
 endmodule
 
@@ -386,22 +375,21 @@ module DPC(DPOP,SGN,clk,DP);
     end
 endmodule
 
-module DC(DOP,INP,OUTP,SGN,RDATA,WDATA,LD,IZ,clk);
+module DC(DOP,INP,OUTP,SGN,RDATA,WDATA,LD,IZ,clk,INPD,OUTPD,IR,OW);
     input DOP,OUTP,INP,SGN,LD,clk;
     input [7:0] RDATA;
     output reg [7:0] WDATA;
     output wire IZ;
+    output reg IR,OW;
+    input [15:0] INPD;
+    output reg [15:0] OUTPD;
     
-    integer COUNT = 0;
-    
-    
-    integer INPMEM;
-    integer OUTC;
-    integer OUTD;
     assign IZ = WDATA == 0;
     
     initial begin
-        INPMEM = $fopen("storage_files/programinput" ,"r");
+        IR<=0;
+        OW<=0;
+        OUTPD<=0;
         WDATA = 0;
     end
     
@@ -409,16 +397,16 @@ module DC(DOP,INP,OUTP,SGN,RDATA,WDATA,LD,IZ,clk);
         
         if(DOP)
             WDATA <= (SGN) ? WDATA-1 : WDATA +1;
-        else if(INP)
-            WDATA <= $fgetc(INPMEM);
+        else if(INP) begin
+            WDATA <= INPD;
+            IR <= !IR;
+        end
         else if(LD)
             WDATA <= RDATA;
         else if(OUTP) begin
-            //$fwrite(OUTC,"%c",WDATA);
-            //$fwrite(OUTD,"%d",WDATA);
             //$display("%c",WDATA);
-            $write("%c", WDATA);
-            
+            OUTPD <= WDATA;
+            OW <= !OW;
         end
     end
     
@@ -426,29 +414,3 @@ module DC(DOP,INP,OUTP,SGN,RDATA,WDATA,LD,IZ,clk);
     
 endmodule
 
- module DMEMC(RD,WD,WDATA,DP,RF,WF,RDATA,clk);
-    input RD,WD,clk;
-    input [14:0] DP;
-    input [7:0] WDATA;
-    output reg RF,WF;
-    output reg [7:0] RDATA;
-    
-    reg [7:0] DMEM[2**15-1:0];
-    
-    initial begin
-        $readmemh("storage_files/DMEM.txt", DMEM);
-        RF <=0;
-        WF <=0;
-    end
-    always @(posedge RD) begin
-        RDATA <= #2 DMEM[DP];
-        RF <= #4 1;
-        RF <= #6 0;
-    end
-    
-    always @(posedge WD) begin
-        DMEM[DP] <= #2 WDATA;
-        WF <= #4 1;
-        WF <= #6 0;
-    end
-endmodule
