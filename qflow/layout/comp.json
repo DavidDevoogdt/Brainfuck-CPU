@@ -1,0 +1,596 @@
+[
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Q",
+        "CLK",
+        "D",
+        "gnd",
+        "vdd"
+      ], [
+        "Q",
+        "CLK",
+        "D",
+        "gnd",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "S",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "S",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "BFCPU",
+      "BFCPU"
+   ],
+   "devices": [
+       [
+         ["BUFX2", 75],
+         ["DFFPOSX1", 46],
+         ["XNOR2X1", 13],
+         ["OAI21X1", 59],
+         ["NOR2X1", 60],
+         ["INVX1", 37],
+         ["NOR3X1", 20],
+         ["AND2X2", 16],
+         ["AOI21X1", 26],
+         ["NAND2X1", 44],
+         ["INVX2", 13],
+         ["XOR2X1", 5],
+         ["NAND3X1", 25],
+         ["OAI22X1", 4],
+         ["OR2X2", 4],
+         ["INVX4", 4],
+         ["BUFX4", 22],
+         ["INVX8", 1],
+         ["AOI22X1", 2],
+         ["MUX2X1", 4 ]
+       ], [
+         ["BUFX2", 75 ],
+         ["DFFPOSX1", 46 ],
+         ["XNOR2X1", 13 ],
+         ["OAI21X1", 59 ],
+         ["NOR2X1", 60 ],
+         ["INVX1", 37 ],
+         ["NOR3X1", 20 ],
+         ["AND2X2", 16 ],
+         ["AOI21X1", 26 ],
+         ["NAND2X1", 44 ],
+         ["INVX2", 13 ],
+         ["XOR2X1", 5 ],
+         ["NAND3X1", 25 ],
+         ["OAI22X1", 4 ],
+         ["OR2X2", 4 ],
+         ["INVX4", 4 ],
+         ["BUFX4", 22 ],
+         ["INVX8", 1 ],
+         ["AOI22X1", 2 ],
+         ["MUX2X1", 4 ]
+       ]
+   ],
+   "nets": [
+    505,
+    505
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "NEXTOP<2>",
+        "NEXTOP<1>",
+        "NEXTOP<0>",
+        "clk",
+        "DP<3>",
+        "DP<11>",
+        "DP<12>",
+        "OUTPD<9>",
+        "OUTPD<11>",
+        "OUTPD<10>",
+        "OUTPD<15>",
+        "OUTPD<14>",
+        "OUTPD<8>",
+        "OUTPD<12>",
+        "OUTPD<13>",
+        "OUTPD<1>",
+        "OUTPD<2>",
+        "OUTPD<3>",
+        "OUTPD<4>",
+        "OUTPD<7>",
+        "OUTPD<0>",
+        "OUTPD<5>",
+        "OUTPD<6>",
+        "IR",
+        "OW",
+        "DP<14>",
+        "WDATA<3>",
+        "WDATA<7>",
+        "DP<4>",
+        "DP<10>",
+        "DP<13>",
+        "DP<7>",
+        "PCDELTA<0>",
+        "RD",
+        "WD",
+        "reset",
+        "RDATA<0>",
+        "INPD<0>",
+        "INPD<2>",
+        "INPD<1>",
+        "RDATA<4>",
+        "RDATA<7>",
+        "RDATA<2>",
+        "RDATA<6>",
+        "RDATA<1>",
+        "RDATA<3>",
+        "RDATA<5>",
+        "INPD<4>",
+        "INPD<7>",
+        "INPD<3>",
+        "INPD<5>",
+        "INPD<6>",
+        "RF",
+        "WF",
+        "WDATA<4>",
+        "DP<0>",
+        "WDATA<5>",
+        "WDATA<6>",
+        "DP<1>",
+        "DP<2>",
+        "DP<8>",
+        "DP<6>",
+        "DP<5>",
+        "DP<9>",
+        "WDATA<0>",
+        "WDATA<2>",
+        "WDATA<1>",
+        "PCDELTA<12>",
+        "PCDELTA<15>",
+        "PCDELTA<10>",
+        "PCDELTA<13>",
+        "PCDELTA<11>",
+        "PCDELTA<14>",
+        "PCDELTA<5>",
+        "PCDELTA<6>",
+        "PCDELTA<8>",
+        "PCDELTA<7>",
+        "PCDELTA<9>",
+        "PCDELTA<2>",
+        "PCDELTA<3>",
+        "PCDELTA<1>",
+        "PCDELTA<4>",
+        "vdd",
+        "gnd",
+        "INPD<8>",
+        "INPD<9>",
+        "INPD<10>",
+        "INPD<11>",
+        "INPD<12>",
+        "INPD<13>",
+        "INPD<14>",
+        "INPD<15>"
+      ], [
+        "NEXTOP<2>",
+        "NEXTOP<1>",
+        "NEXTOP<0>",
+        "clk",
+        "DP<3>",
+        "DP<11>",
+        "DP<12>",
+        "OUTPD<9>",
+        "OUTPD<11>",
+        "OUTPD<10>",
+        "OUTPD<15>",
+        "OUTPD<14>",
+        "OUTPD<8>",
+        "OUTPD<12>",
+        "OUTPD<13>",
+        "OUTPD<1>",
+        "OUTPD<2>",
+        "OUTPD<3>",
+        "OUTPD<4>",
+        "OUTPD<7>",
+        "OUTPD<0>",
+        "OUTPD<5>",
+        "OUTPD<6>",
+        "IR",
+        "OW",
+        "DP<14>",
+        "WDATA<3>",
+        "WDATA<7>",
+        "DP<4>",
+        "DP<10>",
+        "DP<13>",
+        "DP<7>",
+        "PCDELTA<0>",
+        "RD",
+        "WD",
+        "reset",
+        "RDATA<0>",
+        "INPD<0>",
+        "INPD<2>",
+        "INPD<1>",
+        "RDATA<4>",
+        "RDATA<7>",
+        "RDATA<2>",
+        "RDATA<6>",
+        "RDATA<1>",
+        "RDATA<3>",
+        "RDATA<5>",
+        "INPD<4>",
+        "INPD<7>",
+        "INPD<3>",
+        "INPD<5>",
+        "INPD<6>",
+        "RF",
+        "WF",
+        "WDATA<4>",
+        "DP<0>",
+        "WDATA<5>",
+        "WDATA<6>",
+        "DP<1>",
+        "DP<2>",
+        "DP<8>",
+        "DP<6>",
+        "DP<5>",
+        "DP<9>",
+        "WDATA<0>",
+        "WDATA<2>",
+        "WDATA<1>",
+        "PCDELTA<12>",
+        "PCDELTA<15>",
+        "PCDELTA<10>",
+        "PCDELTA<13>",
+        "PCDELTA<11>",
+        "PCDELTA<14>",
+        "PCDELTA<5>",
+        "PCDELTA<6>",
+        "PCDELTA<8>",
+        "PCDELTA<7>",
+        "PCDELTA<9>",
+        "PCDELTA<2>",
+        "PCDELTA<3>",
+        "PCDELTA<1>",
+        "PCDELTA<4>",
+        "vdd",
+        "gnd",
+        "INPD<8>",
+        "INPD<9>",
+        "INPD<10>",
+        "INPD<11>",
+        "INPD<12>",
+        "INPD<13>",
+        "INPD<14>",
+        "INPD<15>"
+      ]
+   ]
+  }
+]

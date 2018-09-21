@@ -25,5 +25,6 @@ execute: outp/cpu.out
 	
 .PHONY : clean
 clean: 
-	rm program.bin cpu.out
+	rm -r outp/
+	mkdir outp
 

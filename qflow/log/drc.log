@@ -1,0 +1,36 @@
+Qflow DRC output log Fri Sep 21 16:13:30 2018
+Running DRC on qflow-generated layout
+
+Magic 8.1 revision 217 - Compiled on Do Sep 20 15:36:24 CEST 2018.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Using technology "scmos", version 2001a
+Reading LEF data from file /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF file:  Defines site core (ignored)
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "YC" from metal2 to m2contact in cell HAX1.
+Moving label "A" from metal1 to m2contact in cell XNOR2X1.
+Moving label "A" from metal2 to m2contact in cell XNOR2X1.
+Moving label "A" from metal2 to m2contact in cell XNOR2X1.
+LEF read: Processed 2941 lines.
+LEF Read: encountered 2 errors total.
+File <BFCPU.mag> is already locked by pid 23675.  Opening read-only.
+Processing timestamp mismatches: FILL, BUFX2, DFFPOSX1, XNOR2X1, OAI21X1, NOR2X1, INVX1, NOR3X1, AND2X2, AOI21X1, NAND2X1, INVX2, XOR2X1, NAND3X1, OAI22X1, OR2X2, INVX4, BUFX4, INVX8, AOI22X1, MUX2X1.
+drc = 0
+/usr/local/share/qflow/tech/osu018/SCN6M_SUBM.10.tech: line 8209: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+LEF Read, Line 16: Unknown keyword "OBS" in LEF file; ignoring.
+LEF Read, Line 17: Unknown keyword "PIN" in LEF file; ignoring.
+No DRC errors in layout
