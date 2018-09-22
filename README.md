@@ -12,9 +12,10 @@ read documentation for more info.
 Build
 ---
 
-just run `make` or `make c`
-to use make c da a make in the c
-bf master folder
+just run `make` and everything should run :)
+
+If you wish to compile a c program run `make configure` and then `make c`
+
 
 Examples
 ---

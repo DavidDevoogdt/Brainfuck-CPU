@@ -1,8 +1,13 @@
 all : inp cpy bcompiler iverilogcompiler execute
 .PHONY : all
 
+configure: compilec2bf
+.PHONY : compilec2bf
 
-c: inp c2bf bcompiler iverilogcompiler execute
+compilec2bf: c2bf/Makefile
+	make -C c2bf/
+	
+c:  c2bfc inp bcompiler iverilogcompiler execute
 .PHONY : c
 
 inp: bin/ascii2hex.py storage_files/programinput
@@ -11,8 +16,8 @@ inp: bin/ascii2hex.py storage_files/programinput
 cpy: programs/program.b
 	cp programs/program.b outp/program.b
 
-c2bf: c2bf-master/c2bf.native programs/program.c 
-	c2bf-master/c2bf.native -o outp/program.b programs/program.c
+c2bfc: c2bf/c2bf.native programs/program.c 
+	./c2bf/c2bf.native -o outp/program.b programs/program.c
 
 bcompiler : bin/compiler.py outp/program.b
 	python3 bin/compiler.py -i outp/program.b  -o storage_files/program.bin
