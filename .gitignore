@@ -1,2 +1,6 @@
 outp/
 .directory
+
+\.vscode/
+
+\.configure\.kate-swp
