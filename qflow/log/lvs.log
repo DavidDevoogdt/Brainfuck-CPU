@@ -1,4 +1,4 @@
-Qflow LVS output log Fri Sep 21 16:12:42 2018
+Qflow LVS output log Sat Sep 22 10:02:48 2018
 Extraction and netlisting
 
 Magic 8.1 revision 217 - Compiled on Do Sep 20 15:36:24 CEST 2018.
@@ -30,27 +30,28 @@ Moving label "A" from metal2 to m2contact in cell XNOR2X1.
 Moving label "A" from metal2 to m2contact in cell XNOR2X1.
 LEF read: Processed 2941 lines.
 LEF Read: encountered 2 errors total.
-Processing timestamp mismatches: FILL, BUFX2, DFFPOSX1, XNOR2X1, OAI21X1, NOR2X1, INVX1, NOR3X1, AND2X2, AOI21X1, NAND2X1, INVX2, XOR2X1, NAND3X1, OAI22X1, OR2X2, INVX4, BUFX4, INVX8, AOI22X1, MUX2X1.
+File <BFCPU.mag> is already locked by pid 17303.  Opening read-only.
+Processing timestamp mismatches: FILL, NAND2X1, BUFX2, XOR2X1, DFFPOSX1, NAND3X1, OAI21X1, NOR3X1, NOR2X1, INVX2, AOI21X1, BUFX4, INVX1, OAI22X1, AND2X2, INVX4, OR2X2, AOI22X1, XNOR2X1, MUX2X1, INVX8.
+Extracting AOI22X1 into AOI22X1.ext:
 Extracting INVX8 into INVX8.ext:
 Extracting OR2X2 into OR2X2.ext:
-Extracting NOR3X1 into NOR3X1.ext:
-Extracting XOR2X1 into XOR2X1.ext:
-Extracting INVX4 into INVX4.ext:
-Extracting NAND3X1 into NAND3X1.ext:
-Extracting XNOR2X1 into XNOR2X1.ext:
-Extracting MUX2X1 into MUX2X1.ext:
 Extracting OAI22X1 into OAI22X1.ext:
+Extracting INVX4 into INVX4.ext:
+Extracting BUFX4 into BUFX4.ext:
+Extracting NAND3X1 into NAND3X1.ext:
+Extracting MUX2X1 into MUX2X1.ext:
 Extracting AND2X2 into AND2X2.ext:
-Extracting AOI22X1 into AOI22X1.ext:
-Extracting OAI21X1 into OAI21X1.ext:
 Extracting INVX2 into INVX2.ext:
 Extracting NAND2X1 into NAND2X1.ext:
+Extracting NOR3X1 into NOR3X1.ext:
 Extracting FILL into FILL.ext:
-Extracting BUFX4 into BUFX4.ext:
-Extracting AOI21X1 into AOI21X1.ext:
-Extracting BUFX2 into BUFX2.ext:
 Extracting NOR2X1 into NOR2X1.ext:
+Extracting AOI21X1 into AOI21X1.ext:
+Extracting OAI21X1 into OAI21X1.ext:
+Extracting XOR2X1 into XOR2X1.ext:
 Extracting INVX1 into INVX1.ext:
+Extracting XNOR2X1 into XNOR2X1.ext:
+Extracting BUFX2 into BUFX2.ext:
 Extracting DFFPOSX1 into DFFPOSX1.ext:
 Extracting BFCPU into BFCPU.ext:
 exttospice finished.
@@ -320,8 +321,8 @@ Circuit contains 505 nets, and 8 disconnected pins.
 Circuit 1 contains 480 elements, Circuit 2 contains 480 elements.
 Circuit 1 contains 505 nodes,    Circuit 2 contains 505 nodes.
 
-Circuits match with 30 symmetries.
-Netlists match with 6 symmetries.
+Circuits match with 14 symmetries.
+Netlists match with 8 symmetries.
 Circuits match correctly.
 Result: Circuits match uniquely.
 Logging to file "comp.out" disabled

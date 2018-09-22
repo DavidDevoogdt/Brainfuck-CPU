@@ -386,117 +386,117 @@ Cell BFCPU disconnected node: INPD<15>
 Subcircuit summary:
 Circuit 1: BFCPU                           |Circuit 2: BFCPU                           
 -------------------------------------------|-------------------------------------------
-BUFX2 (75)                                 |BUFX2 (75)                                 
-DFFPOSX1 (46)                              |DFFPOSX1 (46)                              
-XNOR2X1 (13)                               |XNOR2X1 (13)                               
-OAI21X1 (59)                               |OAI21X1 (59)                               
-NOR2X1 (60)                                |NOR2X1 (60)                                
-INVX1 (37)                                 |INVX1 (37)                                 
-NOR3X1 (20)                                |NOR3X1 (20)                                
-AND2X2 (16)                                |AND2X2 (16)                                
-AOI21X1 (26)                               |AOI21X1 (26)                               
 NAND2X1 (44)                               |NAND2X1 (44)                               
-INVX2 (13)                                 |INVX2 (13)                                 
+BUFX2 (75)                                 |BUFX2 (75)                                 
 XOR2X1 (5)                                 |XOR2X1 (5)                                 
+DFFPOSX1 (46)                              |DFFPOSX1 (46)                              
 NAND3X1 (25)                               |NAND3X1 (25)                               
-OAI22X1 (4)                                |OAI22X1 (4)                                
-OR2X2 (4)                                  |OR2X2 (4)                                  
-INVX4 (4)                                  |INVX4 (4)                                  
+OAI21X1 (59)                               |OAI21X1 (59)                               
+NOR3X1 (20)                                |NOR3X1 (20)                                
+NOR2X1 (60)                                |NOR2X1 (60)                                
+INVX2 (13)                                 |INVX2 (13)                                 
+AOI21X1 (26)                               |AOI21X1 (26)                               
 BUFX4 (22)                                 |BUFX4 (22)                                 
-INVX8 (1)                                  |INVX8 (1)                                  
+INVX1 (37)                                 |INVX1 (37)                                 
+OAI22X1 (4)                                |OAI22X1 (4)                                
+AND2X2 (16)                                |AND2X2 (16)                                
+INVX4 (4)                                  |INVX4 (4)                                  
+OR2X2 (4)                                  |OR2X2 (4)                                  
 AOI22X1 (2)                                |AOI22X1 (2)                                
+XNOR2X1 (13)                               |XNOR2X1 (13)                               
 MUX2X1 (4)                                 |MUX2X1 (4)                                 
+INVX8 (1)                                  |INVX8 (1)                                  
 Number of devices: 480                     |Number of devices: 480                     
 Number of nets: 505                        |Number of nets: 505                        
 ---------------------------------------------------------------------------------------
-Netlists match with 6 symmetries.
+Netlists match with 8 symmetries.
 Circuits match correctly.
 
 Subcircuit pins:
 Circuit 1: BFCPU                           |Circuit 2: BFCPU                           
 -------------------------------------------|-------------------------------------------
 NEXTOP<2>                                  |NEXTOP<2>                                  
-NEXTOP<1>                                  |NEXTOP<1>                                  
 NEXTOP<0>                                  |NEXTOP<0>                                  
 clk                                        |clk                                        
-DP<3>                                      |DP<3>                                      
+NEXTOP<1>                                  |NEXTOP<1>                                  
 DP<11>                                     |DP<11>                                     
 DP<12>                                     |DP<12>                                     
-OUTPD<9>                                   |OUTPD<9>                                   
-OUTPD<11>                                  |OUTPD<11>                                  
-OUTPD<10>                                  |OUTPD<10>                                  
-OUTPD<15>                                  |OUTPD<15>                                  
-OUTPD<14>                                  |OUTPD<14>                                  
-OUTPD<8>                                   |OUTPD<8>                                   
-OUTPD<12>                                  |OUTPD<12>                                  
-OUTPD<13>                                  |OUTPD<13>                                  
+DP<3>                                      |DP<3>                                      
+DP<14>                                     |DP<14>                                     
+IR                                         |IR                                         
 OUTPD<1>                                   |OUTPD<1>                                   
 OUTPD<2>                                   |OUTPD<2>                                   
+OUTPD<11>                                  |OUTPD<11>                                  
+OUTPD<14>                                  |OUTPD<14>                                  
+OUTPD<0>                                   |OUTPD<0>                                   
 OUTPD<3>                                   |OUTPD<3>                                   
 OUTPD<4>                                   |OUTPD<4>                                   
-OUTPD<7>                                   |OUTPD<7>                                   
-OUTPD<0>                                   |OUTPD<0>                                   
 OUTPD<5>                                   |OUTPD<5>                                   
 OUTPD<6>                                   |OUTPD<6>                                   
-IR                                         |IR                                         
+OUTPD<7>                                   |OUTPD<7>                                   
+OUTPD<10>                                  |OUTPD<10>                                  
+OUTPD<12>                                  |OUTPD<12>                                  
+OUTPD<8>                                   |OUTPD<8>                                   
+OUTPD<13>                                  |OUTPD<13>                                  
+OUTPD<9>                                   |OUTPD<9>                                   
+OUTPD<15>                                  |OUTPD<15>                                  
 OW                                         |OW                                         
-DP<14>                                     |DP<14>                                     
 WDATA<3>                                   |WDATA<3>                                   
+DP<13>                                     |DP<13>                                     
+DP<10>                                     |DP<10>                                     
+DP<7>                                      |DP<7>                                      
 WDATA<7>                                   |WDATA<7>                                   
 DP<4>                                      |DP<4>                                      
-DP<10>                                     |DP<10>                                     
-DP<13>                                     |DP<13>                                     
-DP<7>                                      |DP<7>                                      
+reset                                      |reset                                      
 PCDELTA<0>                                 |PCDELTA<0>                                 
 RD                                         |RD                                         
 WD                                         |WD                                         
-reset                                      |reset                                      
 RDATA<0>                                   |RDATA<0>                                   
 INPD<0>                                    |INPD<0>                                    
-INPD<2>                                    |INPD<2>                                    
 INPD<1>                                    |INPD<1>                                    
+INPD<2>                                    |INPD<2>                                    
 RDATA<4>                                   |RDATA<4>                                   
 RDATA<7>                                   |RDATA<7>                                   
-RDATA<2>                                   |RDATA<2>                                   
-RDATA<6>                                   |RDATA<6>                                   
 RDATA<1>                                   |RDATA<1>                                   
 RDATA<3>                                   |RDATA<3>                                   
+RDATA<2>                                   |RDATA<2>                                   
+RDATA<6>                                   |RDATA<6>                                   
 RDATA<5>                                   |RDATA<5>                                   
+INPD<6>                                    |INPD<6>                                    
+INPD<3>                                    |INPD<3>                                    
 INPD<4>                                    |INPD<4>                                    
 INPD<7>                                    |INPD<7>                                    
-INPD<3>                                    |INPD<3>                                    
 INPD<5>                                    |INPD<5>                                    
-INPD<6>                                    |INPD<6>                                    
 RF                                         |RF                                         
 WF                                         |WF                                         
-WDATA<4>                                   |WDATA<4>                                   
-DP<0>                                      |DP<0>                                      
 WDATA<5>                                   |WDATA<5>                                   
-WDATA<6>                                   |WDATA<6>                                   
+DP<0>                                      |DP<0>                                      
+WDATA<4>                                   |WDATA<4>                                   
+DP<9>                                      |DP<9>                                      
+DP<6>                                      |DP<6>                                      
 DP<1>                                      |DP<1>                                      
 DP<2>                                      |DP<2>                                      
+WDATA<6>                                   |WDATA<6>                                   
 DP<8>                                      |DP<8>                                      
-DP<6>                                      |DP<6>                                      
 DP<5>                                      |DP<5>                                      
-DP<9>                                      |DP<9>                                      
-WDATA<0>                                   |WDATA<0>                                   
-WDATA<2>                                   |WDATA<2>                                   
-WDATA<1>                                   |WDATA<1>                                   
+PCDELTA<4>                                 |PCDELTA<4>                                 
 PCDELTA<12>                                |PCDELTA<12>                                
+WDATA<1>                                   |WDATA<1>                                   
+WDATA<2>                                   |WDATA<2>                                   
+WDATA<0>                                   |WDATA<0>                                   
 PCDELTA<15>                                |PCDELTA<15>                                
+PCDELTA<3>                                 |PCDELTA<3>                                 
+PCDELTA<5>                                 |PCDELTA<5>                                 
+PCDELTA<11>                                |PCDELTA<11>                                
+PCDELTA<2>                                 |PCDELTA<2>                                 
+PCDELTA<14>                                |PCDELTA<14>                                
 PCDELTA<10>                                |PCDELTA<10>                                
 PCDELTA<13>                                |PCDELTA<13>                                
-PCDELTA<11>                                |PCDELTA<11>                                
-PCDELTA<14>                                |PCDELTA<14>                                
-PCDELTA<5>                                 |PCDELTA<5>                                 
-PCDELTA<6>                                 |PCDELTA<6>                                 
-PCDELTA<8>                                 |PCDELTA<8>                                 
-PCDELTA<7>                                 |PCDELTA<7>                                 
-PCDELTA<9>                                 |PCDELTA<9>                                 
-PCDELTA<2>                                 |PCDELTA<2>                                 
-PCDELTA<3>                                 |PCDELTA<3>                                 
 PCDELTA<1>                                 |PCDELTA<1>                                 
-PCDELTA<4>                                 |PCDELTA<4>                                 
+PCDELTA<7>                                 |PCDELTA<7>                                 
+PCDELTA<6>                                 |PCDELTA<6>                                 
+PCDELTA<9>                                 |PCDELTA<9>                                 
+PCDELTA<8>                                 |PCDELTA<8>                                 
 vdd                                        |vdd                                        
 gnd                                        |gnd                                        
 INPD<8>                                    |INPD<8>                                    

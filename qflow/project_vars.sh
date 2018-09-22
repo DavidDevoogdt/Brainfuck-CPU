@@ -12,18 +12,18 @@
 # set abc_script =
 # set nobuffers =
 # set nofanout =
-# set fanout_options = "-l 100 -c 20"
+ set fanout_options = "-l 100 -c 20"
 
 # Placement command options:
 # -------------------------------------------
 # set initial_density =
 # set graywolf_options =
-set addspacers_options = "-stripe 2.0 50.0 PG"
+set addspacers_options = "-stripe 5.0 150.0 PG"
 
 # Router command options:
 # -------------------------------------------
 set route_show = 1
-# set route_layers =
+set route_layers = 3
 # set via_use =
 # set via_stacks = "1"
 # set qrouter_options =

@@ -1,0 +1,3 @@
+[submodule "c2bf"]
+	path = c2bf
+	url = https://github.com/arthaud/c2bf.git
