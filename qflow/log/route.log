@@ -1,4 +1,4 @@
-Qflow route logfile created on Fr Sep 21 16:12:21 CEST 2018
+Qflow route logfile created on Sa Sep 22 10:02:11 CEST 2018
 qrouter -noc  -s BFCPU.cfg
 Qrouter detail maze router version 1.3.80.T
 No .cfg file specified, continuing without.
@@ -316,95 +316,93 @@ Finished routing net _119__bF$buf1
 Nets remaining: 468
 Finished routing net _119__bF$buf0
 Nets remaining: 467
-Finished routing net OPC1.PCDELTA<15>
-Nets remaining: 466
+Failed to route net OPC1.PCDELTA<15>
 Finished routing net OPC1.PCDELTA_15_bF$buf0
-Nets remaining: 465
+Nets remaining: 466
 Finished routing net DPC1.DP<1>
-Nets remaining: 464
+Nets remaining: 465
 Finished routing net DPC1.DP<2>
-Nets remaining: 463
+Nets remaining: 464
 Finished routing net DPC1.DP<5>
-Nets remaining: 462
+Nets remaining: 463
 Finished routing net DPC1.DP<6>
-Nets remaining: 461
+Nets remaining: 462
 Finished routing net DPC1.DP<8>
-Nets remaining: 460
+Nets remaining: 461
 Finished routing net DPC1.DP<9>
-Nets remaining: 459
+Nets remaining: 460
 Finished routing net DC1.WDATA<6>
-Nets remaining: 458
+Nets remaining: 459
 Finished routing net _107_
-Nets remaining: 457
+Nets remaining: 458
 Finished routing net _112_
-Nets remaining: 456
+Nets remaining: 457
 Finished routing net _126_
-Nets remaining: 455
+Nets remaining: 456
 Finished routing net _28_
-Nets remaining: 454
+Nets remaining: 455
 Finished routing net _167_
-Nets remaining: 453
+Nets remaining: 454
 Finished routing net DPC1.DP<4>
-Nets remaining: 452
+Nets remaining: 453
 Finished routing net DPC1.DP<7>
-Nets remaining: 451
+Nets remaining: 452
 Finished routing net DPC1.DP<10>
-Nets remaining: 450
+Nets remaining: 451
 Finished routing net DPC1.DP<13>
-Nets remaining: 449
+Nets remaining: 450
 Finished routing net DC1.WDATA<7>
-Nets remaining: 448
+Nets remaining: 449
 Finished routing net _111_
-Nets remaining: 447
+Nets remaining: 448
 Finished routing net DC1.IZ
-Nets remaining: 446
+Nets remaining: 447
 Finished routing net _40_
-Nets remaining: 445
+Nets remaining: 446
 Finished routing net _162_
-Nets remaining: 444
+Nets remaining: 445
 Finished routing net _213_
-Nets remaining: 443
+Nets remaining: 444
 Finished routing net _244_
-Nets remaining: 442
+Nets remaining: 443
 Finished routing net DPC1.DP<3>
-Nets remaining: 441
+Nets remaining: 442
 Finished routing net DPC1.DP<11>
-Nets remaining: 440
+Nets remaining: 441
 Finished routing net DPC1.DP<12>
-Nets remaining: 439
+Nets remaining: 440
 Finished routing net _108_
-Nets remaining: 438
+Nets remaining: 439
 Finished routing net _113_
-Nets remaining: 437
+Nets remaining: 438
 Finished routing net _115_
-Nets remaining: 436
+Nets remaining: 437
 Finished routing net _120_
-Nets remaining: 435
+Nets remaining: 436
 Finished routing net _122_
-Nets remaining: 434
+Nets remaining: 435
 Finished routing net _151_
-Nets remaining: 433
+Nets remaining: 434
 Finished routing net _155_
-Nets remaining: 432
+Nets remaining: 433
 Finished routing net _157_
-Nets remaining: 431
+Nets remaining: 432
 Finished routing net _168_
-Nets remaining: 430
+Nets remaining: 431
 Finished routing net _177_
-Nets remaining: 429
+Nets remaining: 430
 Finished routing net _190_
-Nets remaining: 428
+Nets remaining: 429
 Finished routing net _194_
-Nets remaining: 427
+Nets remaining: 428
 Finished routing net _131_
-Nets remaining: 426
+Nets remaining: 427
 Finished routing net _214_
-Nets remaining: 425
+Nets remaining: 426
 Finished routing net _215_
+Nets remaining: 425
+Finished routing net _218_
 Nets remaining: 424
-Failed to remove stacked via at grid point 39 18.
-Failed to remove stacked via at grid point 39 18.
-Failed to route net _218_
 Finished routing net _226_
 Nets remaining: 423
 Finished routing net _232_
@@ -421,129 +419,128 @@ Finished routing net _259_
 Nets remaining: 417
 Finished routing net _266_
 Nets remaining: 416
-Failed to remove stacked via at grid point 37 17.
-Failed to remove stacked via at grid point 37 17.
-Failed to route net _280_
-Finished routing net _1_
+Finished routing net _280_
 Nets remaining: 415
-Finished routing net _2_
+Finished routing net _1_
 Nets remaining: 414
-Finished routing net _3_
+Finished routing net _2_
 Nets remaining: 413
-Finished routing net _4_
+Finished routing net _3_
 Nets remaining: 412
-Finished routing net _7_
+Finished routing net _4_
 Nets remaining: 411
-Finished routing net _9_
+Finished routing net _7_
 Nets remaining: 410
-Finished routing net DPC1.DP<14>
+Finished routing net _9_
 Nets remaining: 409
-Finished routing net DC1.IR
+Finished routing net DPC1.DP<14>
 Nets remaining: 408
-Finished routing net DC1.OUTPD<0>
+Finished routing net DC1.IR
 Nets remaining: 407
-Finished routing net DC1.OUTPD<1>
+Finished routing net DC1.OUTPD<0>
 Nets remaining: 406
-Finished routing net DC1.OUTPD<2>
+Finished routing net DC1.OUTPD<1>
 Nets remaining: 405
-Finished routing net DC1.OUTPD<3>
+Finished routing net DC1.OUTPD<2>
 Nets remaining: 404
-Finished routing net DC1.OUTPD<4>
+Finished routing net DC1.OUTPD<3>
 Nets remaining: 403
-Finished routing net DC1.OUTPD<5>
+Finished routing net DC1.OUTPD<4>
 Nets remaining: 402
-Finished routing net DC1.OUTPD<6>
+Finished routing net DC1.OUTPD<5>
 Nets remaining: 401
-Finished routing net DC1.OUTPD<7>
+Finished routing net DC1.OUTPD<6>
 Nets remaining: 400
-Finished routing net DC1.OUTPD<8>
+Finished routing net DC1.OUTPD<7>
 Nets remaining: 399
-Finished routing net DC1.OUTPD<9>
+Finished routing net DC1.OUTPD<8>
 Nets remaining: 398
-Finished routing net DC1.OUTPD<10>
+Finished routing net DC1.OUTPD<9>
 Nets remaining: 397
-Finished routing net DC1.OUTPD<11>
+Finished routing net DC1.OUTPD<10>
 Nets remaining: 396
-Finished routing net DC1.OUTPD<12>
+Finished routing net DC1.OUTPD<11>
 Nets remaining: 395
-Finished routing net DC1.OUTPD<13>
+Finished routing net DC1.OUTPD<12>
 Nets remaining: 394
-Finished routing net DC1.OUTPD<14>
+Finished routing net DC1.OUTPD<13>
 Nets remaining: 393
-Finished routing net DC1.OUTPD<15>
+Finished routing net DC1.OUTPD<14>
 Nets remaining: 392
-Finished routing net DC1.OW
+Finished routing net DC1.OUTPD<15>
 Nets remaining: 391
-Finished routing net _109_
+Finished routing net DC1.OW
 Nets remaining: 390
-Finished routing net _110_
+Finished routing net _109_
 Nets remaining: 389
-Finished routing net _114_
+Finished routing net _110_
 Nets remaining: 388
-Finished routing net _118_
+Finished routing net _114_
 Nets remaining: 387
-Finished routing net _121_
+Finished routing net _118_
 Nets remaining: 386
-Finished routing net _18_
+Finished routing net _121_
 Nets remaining: 385
-Finished routing net _25_
+Finished routing net _18_
 Nets remaining: 384
-Finished routing net _31_
+Finished routing net _25_
 Nets remaining: 383
-Finished routing net _34_
+Finished routing net _31_
 Nets remaining: 382
-Finished routing net _41_
+Finished routing net _34_
 Nets remaining: 381
-Finished routing net _42_
+Finished routing net _41_
 Nets remaining: 380
-Finished routing net _43_
+Finished routing net _42_
 Nets remaining: 379
-Finished routing net _46_
+Finished routing net _43_
 Nets remaining: 378
-Finished routing net _55_
+Finished routing net _46_
 Nets remaining: 377
-Finished routing net _57_
+Finished routing net _55_
 Nets remaining: 376
-Finished routing net _65_
+Finished routing net _57_
 Nets remaining: 375
-Finished routing net _68_
+Finished routing net _65_
 Nets remaining: 374
-Finished routing net _69_
+Finished routing net _68_
 Nets remaining: 373
-Finished routing net _165_
+Finished routing net _69_
 Nets remaining: 372
-Finished routing net _172_
+Finished routing net _165_
 Nets remaining: 371
-Finished routing net _173_
+Finished routing net _172_
 Nets remaining: 370
-Finished routing net _181_
+Finished routing net _173_
 Nets remaining: 369
-Finished routing net _185_
+Finished routing net _181_
 Nets remaining: 368
-Finished routing net _187_
+Finished routing net _185_
 Nets remaining: 367
-Finished routing net _197_
+Finished routing net _187_
 Nets remaining: 366
-Finished routing net _198_
+Finished routing net _197_
 Nets remaining: 365
-Finished routing net _129_
+Finished routing net _198_
 Nets remaining: 364
-Finished routing net _130_
+Finished routing net _129_
 Nets remaining: 363
-Finished routing net _132_
+Finished routing net _130_
 Nets remaining: 362
-Finished routing net _133_
+Finished routing net _132_
 Nets remaining: 361
-Finished routing net _136_
+Finished routing net _133_
 Nets remaining: 360
-Finished routing net _137_
+Finished routing net _136_
 Nets remaining: 359
-Finished routing net _216_
+Finished routing net _137_
 Nets remaining: 358
-Finished routing net _217_
+Finished routing net _216_
 Nets remaining: 357
-Finished routing net _219_
+Finished routing net _217_
 Nets remaining: 356
+Failed to remove stacked via at grid point 50 17.
+Failed to route net _219_
 Finished routing net _222_
 Nets remaining: 355
 Finished routing net _228_
@@ -552,81 +549,82 @@ Finished routing net _236_
 Nets remaining: 353
 Finished routing net _238_
 Nets remaining: 352
-Finished routing net _239_
-Nets remaining: 351
+Failed to remove stacked via at grid point 40 19.
+Failed to route net _239_
 Finished routing net _245_
-Nets remaining: 350
+Nets remaining: 351
 Finished routing net _246_
-Nets remaining: 349
+Nets remaining: 350
 Finished routing net _250_
-Nets remaining: 348
+Nets remaining: 349
 Finished routing net _253_
-Nets remaining: 347
+Nets remaining: 348
 Finished routing net _254_
-Nets remaining: 346
+Nets remaining: 347
 Finished routing net _262_
-Nets remaining: 345
+Nets remaining: 346
 Finished routing net _211_
-Nets remaining: 344
+Nets remaining: 345
 Finished routing net _0_
-Nets remaining: 343
+Nets remaining: 344
 Finished routing net DC1.OUTP
-Nets remaining: 342
+Nets remaining: 343
 Finished routing net _5_
-Nets remaining: 341
+Nets remaining: 342
 Finished routing net _6_
-Nets remaining: 340
+Nets remaining: 341
 Finished routing net _10_
-Nets remaining: 339
+Nets remaining: 340
 Finished routing net _8_
-Nets remaining: 338
+Nets remaining: 339
 Finished routing net _11_
-Nets remaining: 337
+Nets remaining: 338
 Finished routing net DP<0>
-Nets remaining: 336
+Nets remaining: 337
 Finished routing net DP<1>
-Nets remaining: 335
+Nets remaining: 336
 Finished routing net DP<2>
-Nets remaining: 334
+Nets remaining: 335
 Finished routing net DP<3>
-Nets remaining: 333
+Nets remaining: 334
 Finished routing net DP<4>
-Nets remaining: 332
+Nets remaining: 333
 Finished routing net DP<5>
-Nets remaining: 331
+Nets remaining: 332
 Finished routing net DP<6>
-Nets remaining: 330
+Nets remaining: 331
 Finished routing net DP<7>
-Nets remaining: 329
+Nets remaining: 330
 Finished routing net DP<8>
-Nets remaining: 328
+Nets remaining: 329
 Finished routing net DP<9>
-Nets remaining: 327
+Nets remaining: 328
 Finished routing net DP<10>
-Nets remaining: 326
+Nets remaining: 327
 Finished routing net DP<11>
-Nets remaining: 325
+Nets remaining: 326
 Finished routing net DP<12>
-Nets remaining: 324
+Nets remaining: 325
 Finished routing net DP<13>
-Nets remaining: 323
+Nets remaining: 324
 Finished routing net DP<14>
-Nets remaining: 322
+Nets remaining: 323
 Finished routing net IR
-Nets remaining: 321
+Nets remaining: 322
 Finished routing net OUTPD<0>
-Nets remaining: 320
+Nets remaining: 321
 Finished routing net OUTPD<1>
-Nets remaining: 319
+Nets remaining: 320
 Finished routing net OUTPD<2>
-Nets remaining: 318
+Nets remaining: 319
 Finished routing net OUTPD<3>
-Nets remaining: 317
+Nets remaining: 318
 Finished routing net OUTPD<4>
-Nets remaining: 316
+Nets remaining: 317
 Finished routing net OUTPD<5>
+Nets remaining: 316
+Finished routing net OUTPD<6>
 Nets remaining: 315
-Failed to route net OUTPD<6>
 Finished routing net OUTPD<7>
 Nets remaining: 314
 Finished routing net OUTPD<8>
@@ -635,609 +633,601 @@ Finished routing net OUTPD<9>
 Nets remaining: 312
 Finished routing net OUTPD<10>
 Nets remaining: 311
-Failed to route net OUTPD<11>
-Finished routing net OUTPD<12>
+Finished routing net OUTPD<11>
 Nets remaining: 310
-Finished routing net OUTPD<13>
+Finished routing net OUTPD<12>
 Nets remaining: 309
-Finished routing net OUTPD<14>
+Finished routing net OUTPD<13>
 Nets remaining: 308
-Finished routing net OUTPD<15>
+Finished routing net OUTPD<14>
 Nets remaining: 307
-Finished routing net OW
+Finished routing net OUTPD<15>
 Nets remaining: 306
-Finished routing net OPC1.PCDELTA<0>
+Finished routing net OW
 Nets remaining: 305
-Finished routing net PCDELTA<0>
+Finished routing net OPC1.PCDELTA<0>
 Nets remaining: 304
-Finished routing net PCDELTA<1>
+Finished routing net PCDELTA<0>
 Nets remaining: 303
-Finished routing net PCDELTA<2>
+Finished routing net PCDELTA<1>
 Nets remaining: 302
-Finished routing net PCDELTA<3>
+Finished routing net PCDELTA<2>
 Nets remaining: 301
-Finished routing net PCDELTA<4>
+Finished routing net PCDELTA<3>
 Nets remaining: 300
-Finished routing net PCDELTA<5>
+Finished routing net PCDELTA<4>
 Nets remaining: 299
-Finished routing net PCDELTA<6>
+Finished routing net PCDELTA<5>
 Nets remaining: 298
-Finished routing net PCDELTA<7>
+Finished routing net PCDELTA<6>
 Nets remaining: 297
-Finished routing net PCDELTA<8>
+Finished routing net PCDELTA<7>
 Nets remaining: 296
-Finished routing net PCDELTA<9>
+Finished routing net PCDELTA<8>
 Nets remaining: 295
-Finished routing net PCDELTA<10>
+Finished routing net PCDELTA<9>
 Nets remaining: 294
-Finished routing net PCDELTA<11>
+Finished routing net PCDELTA<10>
 Nets remaining: 293
-Finished routing net PCDELTA<12>
+Finished routing net PCDELTA<11>
 Nets remaining: 292
-Finished routing net PCDELTA<13>
+Finished routing net PCDELTA<12>
 Nets remaining: 291
-Finished routing net PCDELTA<14>
+Finished routing net PCDELTA<13>
 Nets remaining: 290
-Finished routing net PCDELTA<15>
+Finished routing net PCDELTA<14>
 Nets remaining: 289
-Finished routing net RD
+Finished routing net PCDELTA<15>
 Nets remaining: 288
-Finished routing net WD
+Finished routing net RD
 Nets remaining: 287
-Finished routing net WDATA<0>
+Finished routing net WD
 Nets remaining: 286
-Finished routing net WDATA<1>
+Finished routing net WDATA<0>
 Nets remaining: 285
-Finished routing net WDATA<2>
+Finished routing net WDATA<1>
 Nets remaining: 284
-Finished routing net WDATA<3>
+Finished routing net WDATA<2>
 Nets remaining: 283
-Finished routing net WDATA<4>
+Finished routing net WDATA<3>
 Nets remaining: 282
-Finished routing net WDATA<5>
+Finished routing net WDATA<4>
 Nets remaining: 281
-Finished routing net WDATA<6>
+Finished routing net WDATA<5>
 Nets remaining: 280
-Finished routing net WDATA<7>
+Finished routing net WDATA<6>
 Nets remaining: 279
-Finished routing net _12_
+Finished routing net WDATA<7>
 Nets remaining: 278
-Finished routing net reset
+Finished routing net _12_
 Nets remaining: 277
-Finished routing net _116_
+Finished routing net reset
 Nets remaining: 276
-Finished routing net _117_
+Finished routing net _116_
 Nets remaining: 275
-Finished routing net _15_
+Finished routing net _117_
 Nets remaining: 274
-Finished routing net _13_
+Finished routing net _15_
 Nets remaining: 273
-Failed to remove stacked via at grid point 83 120.
-Failed to route net _123_
-Finished routing net RDATA<0>
+Finished routing net _13_
 Nets remaining: 272
-Finished routing net _124_
+Finished routing net _123_
 Nets remaining: 271
-Finished routing net INPD<0>
+Finished routing net RDATA<0>
 Nets remaining: 270
-Finished routing net _125_
+Finished routing net _124_
 Nets remaining: 269
-Finished routing net _16_<0>
+Finished routing net INPD<0>
 Nets remaining: 268
-Finished routing net _127_
+Finished routing net _125_
 Nets remaining: 267
-Finished routing net _17_
+Finished routing net _16_<0>
 Nets remaining: 266
-Finished routing net RDATA<1>
+Finished routing net _127_
 Nets remaining: 265
-Finished routing net _19_
+Finished routing net _17_
 Nets remaining: 264
-Finished routing net _20_
+Finished routing net RDATA<1>
 Nets remaining: 263
-Finished routing net INPD<1>
+Finished routing net _19_
 Nets remaining: 262
-Finished routing net _21_
+Finished routing net _20_
 Nets remaining: 261
-Failed to remove stacked via at grid point 168 89.
-Failed to route net _16_<1>
-Finished routing net RDATA<2>
+Finished routing net INPD<1>
 Nets remaining: 260
-Finished routing net _22_
+Finished routing net _21_
 Nets remaining: 259
-Finished routing net _23_
+Finished routing net _16_<1>
 Nets remaining: 258
-Finished routing net INPD<2>
+Finished routing net RDATA<2>
 Nets remaining: 257
-Finished routing net _24_
+Finished routing net _22_
 Nets remaining: 256
-Finished routing net _26_
+Failed to remove stacked via at grid point 167 109.
+Failed to route net _23_
+Finished routing net INPD<2>
 Nets remaining: 255
-Finished routing net _27_
+Finished routing net _24_
 Nets remaining: 254
-Finished routing net _16_<2>
+Finished routing net _26_
 Nets remaining: 253
-Finished routing net _29_
+Failed to remove stacked via at grid point 140 90.
+Failed to route net _27_
+Finished routing net _16_<2>
 Nets remaining: 252
-Finished routing net _30_
+Finished routing net _29_
 Nets remaining: 251
-Finished routing net _32_
+Finished routing net _30_
 Nets remaining: 250
-Finished routing net _33_
+Finished routing net _32_
 Nets remaining: 249
-Finished routing net RDATA<3>
+Finished routing net _33_
 Nets remaining: 248
-Finished routing net _35_
+Finished routing net RDATA<3>
 Nets remaining: 247
-Finished routing net _36_
+Finished routing net _35_
 Nets remaining: 246
-Finished routing net INPD<3>
+Finished routing net _36_
 Nets remaining: 245
-Finished routing net _37_
+Finished routing net INPD<3>
 Nets remaining: 244
-Failed to remove stacked via at grid point 132 115.
-Failed to route net _38_
-Failed to route net _39_
-Finished routing net _16_<3>
+Finished routing net _37_
 Nets remaining: 243
-Finished routing net _44_
+Finished routing net _38_
 Nets remaining: 242
-Finished routing net _45_
+Finished routing net _39_
 Nets remaining: 241
-Finished routing net _47_
+Finished routing net _16_<3>
 Nets remaining: 240
-Finished routing net _48_
+Finished routing net _44_
 Nets remaining: 239
-Finished routing net RDATA<4>
+Finished routing net _45_
 Nets remaining: 238
-Finished routing net _49_
+Finished routing net _47_
 Nets remaining: 237
-Finished routing net _50_
+Finished routing net _48_
 Nets remaining: 236
-Finished routing net INPD<4>
+Finished routing net RDATA<4>
 Nets remaining: 235
-Finished routing net _51_
+Finished routing net _49_
 Nets remaining: 234
-Finished routing net _52_
+Finished routing net _50_
 Nets remaining: 233
-Finished routing net _53_
+Finished routing net INPD<4>
 Nets remaining: 232
-Finished routing net _16_<4>
+Finished routing net _51_
 Nets remaining: 231
-Finished routing net _54_
+Finished routing net _52_
 Nets remaining: 230
-Finished routing net _56_
+Finished routing net _53_
 Nets remaining: 229
-Finished routing net _58_
+Finished routing net _16_<4>
 Nets remaining: 228
-Finished routing net _59_
+Finished routing net _54_
 Nets remaining: 227
-Finished routing net RDATA<5>
+Finished routing net _56_
 Nets remaining: 226
-Finished routing net _60_
+Finished routing net _58_
 Nets remaining: 225
-Failed to remove stacked via at grid point 155 110.
-Failed to route net _61_
-Finished routing net INPD<5>
+Finished routing net _59_
 Nets remaining: 224
-Finished routing net _62_
+Finished routing net RDATA<5>
 Nets remaining: 223
-Finished routing net _63_
+Finished routing net _60_
 Nets remaining: 222
-Failed to remove stacked via at grid point 154 105.
-Failed to route net _64_
-Finished routing net _16_<5>
+Finished routing net _61_
 Nets remaining: 221
-Finished routing net _66_
+Finished routing net INPD<5>
 Nets remaining: 220
-Finished routing net _67_
+Finished routing net _62_
 Nets remaining: 219
-Finished routing net _70_
+Finished routing net _63_
 Nets remaining: 218
-Finished routing net _71_
+Finished routing net _64_
 Nets remaining: 217
-Finished routing net RDATA<6>
+Finished routing net _16_<5>
 Nets remaining: 216
-Finished routing net _72_
+Finished routing net _66_
 Nets remaining: 215
-Finished routing net _73_
+Finished routing net _67_
 Nets remaining: 214
-Finished routing net INPD<6>
+Finished routing net _70_
 Nets remaining: 213
-Finished routing net _74_
+Finished routing net _71_
 Nets remaining: 212
-Finished routing net _75_
+Finished routing net RDATA<6>
 Nets remaining: 211
-Finished routing net _76_
+Finished routing net _72_
 Nets remaining: 210
-Finished routing net _16_<6>
+Finished routing net _73_
 Nets remaining: 209
-Finished routing net _77_
+Finished routing net INPD<6>
 Nets remaining: 208
-Finished routing net _78_
+Finished routing net _74_
 Nets remaining: 207
-Failed to remove stacked via at grid point 121 86.
-Failed to route net _79_
-Finished routing net _80_
+Finished routing net _75_
 Nets remaining: 206
-Finished routing net _81_
+Finished routing net _76_
 Nets remaining: 205
-Finished routing net _82_
+Finished routing net _16_<6>
 Nets remaining: 204
-Finished routing net _83_
+Failed to remove stacked via at grid point 136 69.
+Failed to route net _77_
+Finished routing net _78_
 Nets remaining: 203
-Finished routing net _84_
+Finished routing net _79_
 Nets remaining: 202
-Finished routing net _85_
+Finished routing net _80_
 Nets remaining: 201
-Finished routing net RDATA<7>
+Finished routing net _81_
 Nets remaining: 200
-Finished routing net _86_
+Finished routing net _82_
 Nets remaining: 199
-Failed to remove stacked via at grid point 114 111.
-Failed to route net _87_
-Finished routing net INPD<7>
+Finished routing net _83_
 Nets remaining: 198
-Finished routing net _88_
+Finished routing net _84_
 Nets remaining: 197
-Finished routing net _89_
+Finished routing net _85_
 Nets remaining: 196
-Finished routing net _90_
+Finished routing net RDATA<7>
 Nets remaining: 195
-Finished routing net _16_<7>
+Finished routing net _86_
 Nets remaining: 194
-Finished routing net _91_
+Finished routing net _87_
 Nets remaining: 193
-Finished routing net _14_<0>
+Finished routing net INPD<7>
 Nets remaining: 192
-Finished routing net _92_
+Finished routing net _88_
 Nets remaining: 191
-Finished routing net _14_<1>
+Finished routing net _89_
 Nets remaining: 190
-Finished routing net _93_
+Finished routing net _90_
 Nets remaining: 189
-Finished routing net _14_<2>
+Finished routing net _16_<7>
 Nets remaining: 188
-Finished routing net _94_
+Finished routing net _91_
 Nets remaining: 187
-Finished routing net _14_<3>
+Finished routing net _14_<0>
 Nets remaining: 186
-Finished routing net _95_
+Finished routing net _92_
 Nets remaining: 185
-Finished routing net _14_<4>
+Finished routing net _14_<1>
 Nets remaining: 184
-Finished routing net _96_
+Finished routing net _93_
 Nets remaining: 183
-Finished routing net _14_<5>
+Finished routing net _14_<2>
 Nets remaining: 182
-Finished routing net _97_
+Finished routing net _94_
 Nets remaining: 181
-Finished routing net _14_<6>
+Finished routing net _14_<3>
 Nets remaining: 180
-Finished routing net _98_
+Finished routing net _95_
 Nets remaining: 179
-Finished routing net _14_<7>
+Finished routing net _14_<4>
 Nets remaining: 178
-Finished routing net _99_
+Finished routing net _96_
 Nets remaining: 177
-Finished routing net _14_<8>
+Finished routing net _14_<5>
 Nets remaining: 176
-Finished routing net _100_
+Finished routing net _97_
 Nets remaining: 175
-Finished routing net _14_<9>
+Finished routing net _14_<6>
 Nets remaining: 174
-Finished routing net _101_
+Finished routing net _98_
 Nets remaining: 173
-Finished routing net _14_<10>
+Finished routing net _14_<7>
 Nets remaining: 172
-Finished routing net _102_
+Finished routing net _99_
 Nets remaining: 171
-Finished routing net _14_<11>
+Finished routing net _14_<8>
 Nets remaining: 170
-Finished routing net _103_
+Finished routing net _100_
 Nets remaining: 169
-Finished routing net _14_<12>
+Finished routing net _14_<9>
 Nets remaining: 168
-Finished routing net _104_
+Finished routing net _101_
 Nets remaining: 167
-Finished routing net _14_<13>
+Finished routing net _14_<10>
 Nets remaining: 166
-Finished routing net _105_
+Finished routing net _102_
 Nets remaining: 165
-Finished routing net _14_<14>
+Finished routing net _14_<11>
 Nets remaining: 164
-Finished routing net _106_
+Finished routing net _103_
 Nets remaining: 163
-Finished routing net _14_<15>
+Finished routing net _14_<12>
 Nets remaining: 162
-Finished routing net _128_<0>
+Finished routing net _104_
 Nets remaining: 161
-Finished routing net _146_
+Finished routing net _14_<13>
 Nets remaining: 160
-Finished routing net _147_
+Finished routing net _105_
 Nets remaining: 159
-Failed to remove stacked via at grid point 147 68.
-Failed to route net _149_
-Finished routing net _150_
+Finished routing net _14_<14>
 Nets remaining: 158
-Finished routing net _128_<1>
+Finished routing net _106_
 Nets remaining: 157
-Finished routing net _152_
+Finished routing net _14_<15>
 Nets remaining: 156
-Finished routing net _153_
+Finished routing net _128_<0>
 Nets remaining: 155
-Finished routing net _154_
+Finished routing net _146_
 Nets remaining: 154
-Finished routing net _128_<2>
+Finished routing net _147_
 Nets remaining: 153
-Finished routing net _156_
+Finished routing net _149_
 Nets remaining: 152
-Finished routing net _158_
+Finished routing net _150_
 Nets remaining: 151
-Finished routing net _159_
+Finished routing net _128_<1>
 Nets remaining: 150
-Finished routing net _128_<3>
+Finished routing net _152_
 Nets remaining: 149
-Finished routing net _160_
+Finished routing net _153_
 Nets remaining: 148
-Finished routing net _161_
+Finished routing net _154_
 Nets remaining: 147
-Finished routing net _163_
+Finished routing net _128_<2>
 Nets remaining: 146
-Finished routing net _164_
+Finished routing net _156_
 Nets remaining: 145
-Finished routing net _128_<4>
+Finished routing net _158_
 Nets remaining: 144
-Finished routing net _166_
+Finished routing net _159_
 Nets remaining: 143
-Finished routing net _169_
+Finished routing net _128_<3>
 Nets remaining: 142
-Finished routing net _170_
+Finished routing net _160_
 Nets remaining: 141
-Finished routing net _128_<5>
+Finished routing net _161_
 Nets remaining: 140
-Finished routing net _171_
+Finished routing net _163_
 Nets remaining: 139
-Finished routing net _174_
+Finished routing net _164_
 Nets remaining: 138
-Finished routing net _175_
+Finished routing net _128_<4>
 Nets remaining: 137
-Finished routing net _176_
+Finished routing net _166_
 Nets remaining: 136
-Finished routing net _128_<6>
+Finished routing net _169_
 Nets remaining: 135
-Finished routing net _178_
+Finished routing net _170_
 Nets remaining: 134
-Finished routing net _179_
+Finished routing net _128_<5>
 Nets remaining: 133
-Finished routing net _180_
+Finished routing net _171_
 Nets remaining: 132
-Finished routing net _128_<7>
+Finished routing net _174_
 Nets remaining: 131
-Finished routing net _182_
+Finished routing net _175_
 Nets remaining: 130
-Finished routing net _183_
+Finished routing net _176_
 Nets remaining: 129
-Finished routing net _184_
+Finished routing net _128_<6>
 Nets remaining: 128
-Finished routing net _186_
+Finished routing net _178_
 Nets remaining: 127
-Finished routing net _188_
+Finished routing net _179_
 Nets remaining: 126
-Finished routing net _128_<8>
+Finished routing net _180_
 Nets remaining: 125
-Finished routing net _189_
+Finished routing net _128_<7>
 Nets remaining: 124
-Finished routing net _191_
+Finished routing net _182_
 Nets remaining: 123
-Finished routing net _192_
+Finished routing net _183_
 Nets remaining: 122
-Finished routing net _128_<9>
+Finished routing net _184_
 Nets remaining: 121
-Finished routing net _193_
+Finished routing net _186_
 Nets remaining: 120
-Finished routing net _195_
+Finished routing net _188_
 Nets remaining: 119
-Finished routing net _196_
+Finished routing net _128_<8>
 Nets remaining: 118
-Finished routing net _128_<10>
+Finished routing net _189_
 Nets remaining: 117
-Finished routing net _199_
+Finished routing net _191_
 Nets remaining: 116
-Finished routing net _200_
+Finished routing net _192_
 Nets remaining: 115
-Finished routing net _201_
+Finished routing net _128_<9>
 Nets remaining: 114
-Finished routing net _128_<11>
+Finished routing net _193_
 Nets remaining: 113
-Finished routing net _134_
+Finished routing net _195_
 Nets remaining: 112
-Finished routing net _128_<12>
+Finished routing net _196_
 Nets remaining: 111
-Finished routing net _135_
+Finished routing net _128_<10>
 Nets remaining: 110
-Failed to remove stacked via at grid point 113 11.
-Failed to route net _138_
-Finished routing net _139_
+Finished routing net _199_
 Nets remaining: 109
-Finished routing net _128_<13>
+Finished routing net _200_
 Nets remaining: 108
-Finished routing net _140_
+Finished routing net _201_
 Nets remaining: 107
-Finished routing net _141_
+Finished routing net _128_<11>
 Nets remaining: 106
-Failed to remove stacked via at grid point 135 15.
-Failed to route net _142_
-Finished routing net _143_
+Finished routing net _134_
 Nets remaining: 105
-Finished routing net _144_
+Finished routing net _128_<12>
 Nets remaining: 104
-Finished routing net _145_
+Finished routing net _135_
 Nets remaining: 103
-Finished routing net _128_<14>
+Finished routing net _138_
 Nets remaining: 102
-Finished routing net _220_
+Finished routing net _139_
 Nets remaining: 101
-Finished routing net _221_
+Finished routing net _128_<13>
 Nets remaining: 100
-Finished routing net _224_
+Finished routing net _140_
 Nets remaining: 99
-Finished routing net RF
+Finished routing net _141_
 Nets remaining: 98
-Finished routing net _230_
+Finished routing net _142_
 Nets remaining: 97
-Finished routing net _231_
+Finished routing net _143_
 Nets remaining: 96
-Finished routing net WF
+Finished routing net _144_
 Nets remaining: 95
-Finished routing net _234_
+Finished routing net _145_
 Nets remaining: 94
-Finished routing net _235_
+Finished routing net _128_<14>
 Nets remaining: 93
-Finished routing net _240_
+Finished routing net _220_
 Nets remaining: 92
-Finished routing net _241_
+Finished routing net _221_
 Nets remaining: 91
-Finished routing net _242_
+Finished routing net _224_
 Nets remaining: 90
-Finished routing net OPC1.bracketcount<7>
+Finished routing net RF
 Nets remaining: 89
-Finished routing net _247_
+Finished routing net _230_
 Nets remaining: 88
-Finished routing net _248_
+Finished routing net _231_
 Nets remaining: 87
-Finished routing net _249_
+Finished routing net WF
 Nets remaining: 86
-Finished routing net _251_
+Finished routing net _234_
 Nets remaining: 85
-Finished routing net _252_
+Finished routing net _235_
 Nets remaining: 84
-Finished routing net _255_
+Finished routing net _240_
 Nets remaining: 83
-Finished routing net _256_
+Failed to remove stacked via at grid point 37 29.
+Failed to route net _241_
+Finished routing net _242_
 Nets remaining: 82
-Finished routing net OPC1.NEXTSTATE<0>
+Finished routing net OPC1.bracketcount<7>
 Nets remaining: 81
-Finished routing net _258_
+Finished routing net _247_
 Nets remaining: 80
-Finished routing net _260_
+Finished routing net _248_
 Nets remaining: 79
-Finished routing net _261_
+Finished routing net _249_
 Nets remaining: 78
-Finished routing net _263_
+Finished routing net _251_
 Nets remaining: 77
-Finished routing net _264_
+Finished routing net _252_
 Nets remaining: 76
-Finished routing net _265_
+Finished routing net _255_
 Nets remaining: 75
-Finished routing net _267_
+Finished routing net _256_
 Nets remaining: 74
-Finished routing net _268_
+Finished routing net OPC1.NEXTSTATE<0>
 Nets remaining: 73
-Finished routing net _269_
+Finished routing net _258_
 Nets remaining: 72
-Finished routing net OPC1.NEXTSTATE<1>
+Finished routing net _260_
 Nets remaining: 71
-Finished routing net _270_
+Finished routing net _261_
 Nets remaining: 70
-Finished routing net _271_
+Finished routing net _263_
 Nets remaining: 69
-Finished routing net _272_
+Finished routing net _264_
 Nets remaining: 68
-Finished routing net _273_
+Finished routing net _265_
 Nets remaining: 67
-Finished routing net _274_
+Finished routing net _267_
 Nets remaining: 66
-Finished routing net _275_
+Finished routing net _268_
 Nets remaining: 65
-Finished routing net _276_
+Finished routing net _269_
 Nets remaining: 64
-Finished routing net _277_
+Finished routing net OPC1.NEXTSTATE<1>
 Nets remaining: 63
-Finished routing net _278_
+Finished routing net _270_
 Nets remaining: 62
-Finished routing net _279_
+Finished routing net _271_
 Nets remaining: 61
-Finished routing net _281_
+Finished routing net _272_
 Nets remaining: 60
-Finished routing net _282_
+Finished routing net _273_
 Nets remaining: 59
-Finished routing net OPC1.NEXTSTATE<2>
+Finished routing net _274_
 Nets remaining: 58
-Finished routing net _283_
+Finished routing net _275_
 Nets remaining: 57
-Finished routing net _284_
+Finished routing net _276_
 Nets remaining: 56
-Finished routing net _285_
+Finished routing net _277_
 Nets remaining: 55
-Finished routing net _286_
+Finished routing net _278_
 Nets remaining: 54
-Finished routing net _287_
+Finished routing net _279_
 Nets remaining: 53
-Finished routing net _288_
+Finished routing net _281_
 Nets remaining: 52
-Finished routing net _289_
+Finished routing net _282_
 Nets remaining: 51
-Finished routing net _203_
+Finished routing net OPC1.NEXTSTATE<2>
 Nets remaining: 50
-Finished routing net _204_
+Finished routing net _283_
 Nets remaining: 49
-Finished routing net OPC1.NEXTSTATE<3>
+Finished routing net _284_
 Nets remaining: 48
-Finished routing net _205_
+Finished routing net _285_
 Nets remaining: 47
-Finished routing net _206_
+Finished routing net _286_
 Nets remaining: 46
-Finished routing net _207_
+Finished routing net _287_
 Nets remaining: 45
-Finished routing net _208_
+Finished routing net _288_
 Nets remaining: 44
-Finished routing net _209_
+Failed to remove stacked via at grid point 52 30.
+Failed to route net _289_
+Finished routing net _203_
 Nets remaining: 43
-Finished routing net _210_
+Finished routing net _204_
 Nets remaining: 42
-Finished routing net vdd
+Finished routing net OPC1.NEXTSTATE<3>
 Nets remaining: 41
+Finished routing net _205_
+Nets remaining: 40
+Finished routing net _206_
+Nets remaining: 39
+Finished routing net _207_
+Nets remaining: 38
+Finished routing net _208_
+Nets remaining: 37
+Finished routing net _209_
+Nets remaining: 36
+Finished routing net _210_
+Nets remaining: 35
+Finished routing net vdd
+Nets remaining: 34
 
 ----------------------------------------------
-Progress: Stage 1 total routes completed: 997
-Failed net routes: 15
+Progress: Stage 1 total routes completed: 999
+Failed net routes: 8
 ----------------------------------------------
 *** Running stage2 routing with options mask 10, effort 10
-Nets remaining: 15
-Nets remaining: 14
-Nets remaining: 13
-Nets remaining: 12
-Nets remaining: 11
-Best route of _79_ collides with nets: _66_ 
-Ripping up blocking net _66_
-Nets remaining: 11
-Best route of _64_ collides with nets: DC1.LD 
-Ripping up blocking net DC1.LD
-Nets remaining: 11
-Nets remaining: 10
-Nets remaining: 9
 Nets remaining: 8
-Best route of _16_<1> collides with nets: clk_bF$buf1 
-Ripping up blocking net clk_bF$buf1
+Best route of _289_ collides with nets: NEXTOP<1> 
+Ripping up blocking net NEXTOP<1>
 Nets remaining: 8
 Nets remaining: 7
 Nets remaining: 6
-Failure on net OUTPD<6>:  Abandoning for now.
 Nets remaining: 5
+Nets remaining: 4
+Best route of _239_ collides with nets: OPC1.INST<3> 
+Ripping up blocking net OPC1.INST<3>
+Nets remaining: 4
+Nets remaining: 3
+Best route of OPC1.PCDELTA<15> collides with net: OPC1.PCDELTA_15_bF$buf4 DC1.WDATA<7> 
+Ripping up blocking net OPC1.PCDELTA_15_bF$buf4
+Ripping up blocking net DC1.WDATA<7>
 Nets remaining: 4
 Nets remaining: 3
 Nets remaining: 2
 Nets remaining: 1
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 1035
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 20, effort 10
+Best route of DC1.WDATA<7> collides with nets: OPC1.PCDELTA<15> 
+Ripping up blocking net OPC1.PCDELTA<15>
 Nets remaining: 1
 
 ----------------------------------------------
-Progress: Stage 2 total routes completed: 1036
+Progress: Stage 2 total routes completed: 1049
 No failed routes!
 ----------------------------------------------
 *** Running stage3 routing with defaults, 1st round
@@ -1781,220 +1771,220 @@ Finished routing net _30_
 Nets remaining: 245
 Finished routing net _32_
 Nets remaining: 244
-Finished routing net _33_
-Nets remaining: 243
+Failed to remove stacked via at grid point 134 39.
+Failed to route net _33_
 Finished routing net RDATA<3>
-Nets remaining: 242
+Nets remaining: 243
 Finished routing net _35_
-Nets remaining: 241
+Nets remaining: 242
 Finished routing net _36_
-Nets remaining: 240
+Nets remaining: 241
 Finished routing net INPD<3>
-Nets remaining: 239
+Nets remaining: 240
 Finished routing net _37_
-Nets remaining: 238
+Nets remaining: 239
 Finished routing net _38_
-Nets remaining: 237
+Nets remaining: 238
 Finished routing net _39_
-Nets remaining: 236
+Nets remaining: 237
 Finished routing net _16_<3>
-Nets remaining: 235
+Nets remaining: 236
 Finished routing net _44_
-Nets remaining: 234
+Nets remaining: 235
 Finished routing net _45_
-Nets remaining: 233
+Nets remaining: 234
 Finished routing net _47_
-Nets remaining: 232
+Nets remaining: 233
 Finished routing net _48_
-Nets remaining: 231
+Nets remaining: 232
 Finished routing net RDATA<4>
-Nets remaining: 230
+Nets remaining: 231
 Finished routing net _49_
-Nets remaining: 229
+Nets remaining: 230
 Finished routing net _50_
-Nets remaining: 228
+Nets remaining: 229
 Finished routing net INPD<4>
-Nets remaining: 227
+Nets remaining: 228
 Finished routing net _51_
-Nets remaining: 226
+Nets remaining: 227
 Finished routing net _52_
-Nets remaining: 225
+Nets remaining: 226
 Finished routing net _53_
-Nets remaining: 224
+Nets remaining: 225
 Finished routing net _16_<4>
-Nets remaining: 223
+Nets remaining: 224
 Finished routing net _54_
-Nets remaining: 222
+Nets remaining: 223
 Finished routing net _56_
-Nets remaining: 221
+Nets remaining: 222
 Finished routing net _58_
-Nets remaining: 220
+Nets remaining: 221
 Finished routing net _59_
-Nets remaining: 219
+Nets remaining: 220
 Finished routing net RDATA<5>
-Nets remaining: 218
+Nets remaining: 219
 Finished routing net _60_
-Nets remaining: 217
+Nets remaining: 218
 Finished routing net _61_
-Nets remaining: 216
+Nets remaining: 217
 Finished routing net INPD<5>
-Nets remaining: 215
+Nets remaining: 216
 Finished routing net _62_
-Nets remaining: 214
+Nets remaining: 215
 Finished routing net _63_
-Nets remaining: 213
+Nets remaining: 214
 Finished routing net _64_
-Nets remaining: 212
+Nets remaining: 213
 Finished routing net _16_<5>
-Nets remaining: 211
+Nets remaining: 212
 Finished routing net _66_
-Nets remaining: 210
+Nets remaining: 211
 Finished routing net _67_
-Nets remaining: 209
+Nets remaining: 210
 Finished routing net _70_
-Nets remaining: 208
+Nets remaining: 209
 Finished routing net _71_
-Nets remaining: 207
+Nets remaining: 208
 Finished routing net RDATA<6>
-Nets remaining: 206
+Nets remaining: 207
 Finished routing net _72_
-Nets remaining: 205
+Nets remaining: 206
 Finished routing net _73_
-Nets remaining: 204
+Nets remaining: 205
 Finished routing net INPD<6>
-Nets remaining: 203
+Nets remaining: 204
 Finished routing net _74_
-Nets remaining: 202
+Nets remaining: 203
 Finished routing net _75_
-Nets remaining: 201
+Nets remaining: 202
 Finished routing net _76_
-Nets remaining: 200
+Nets remaining: 201
 Finished routing net _16_<6>
-Nets remaining: 199
+Nets remaining: 200
 Finished routing net _77_
-Nets remaining: 198
+Nets remaining: 199
 Finished routing net _78_
-Nets remaining: 197
+Nets remaining: 198
 Finished routing net _79_
-Nets remaining: 196
+Nets remaining: 197
 Finished routing net _80_
-Nets remaining: 195
+Nets remaining: 196
 Finished routing net _81_
-Nets remaining: 194
+Nets remaining: 195
 Finished routing net _82_
-Nets remaining: 193
+Nets remaining: 194
 Finished routing net _83_
-Nets remaining: 192
+Nets remaining: 193
 Finished routing net _84_
-Nets remaining: 191
+Nets remaining: 192
 Finished routing net _85_
-Nets remaining: 190
+Nets remaining: 191
 Finished routing net RDATA<7>
-Nets remaining: 189
+Nets remaining: 190
 Finished routing net _86_
-Nets remaining: 188
+Nets remaining: 189
 Finished routing net _87_
-Nets remaining: 187
+Nets remaining: 188
 Finished routing net INPD<7>
-Nets remaining: 186
+Nets remaining: 187
 Finished routing net _88_
-Nets remaining: 185
+Nets remaining: 186
 Finished routing net _89_
-Nets remaining: 184
+Nets remaining: 185
 Finished routing net _90_
-Nets remaining: 183
+Nets remaining: 184
 Finished routing net _16_<7>
-Nets remaining: 182
+Nets remaining: 183
 Finished routing net _91_
-Nets remaining: 181
+Nets remaining: 182
 Finished routing net _14_<0>
-Nets remaining: 180
+Nets remaining: 181
 Finished routing net _92_
-Nets remaining: 179
+Nets remaining: 180
 Finished routing net _14_<1>
-Nets remaining: 178
+Nets remaining: 179
 Finished routing net _93_
-Nets remaining: 177
+Nets remaining: 178
 Finished routing net _14_<2>
-Nets remaining: 176
+Nets remaining: 177
 Finished routing net _94_
-Nets remaining: 175
+Nets remaining: 176
 Finished routing net _14_<3>
-Nets remaining: 174
+Nets remaining: 175
 Finished routing net _95_
-Nets remaining: 173
+Nets remaining: 174
 Finished routing net _14_<4>
-Nets remaining: 172
+Nets remaining: 173
 Finished routing net _96_
-Nets remaining: 171
+Nets remaining: 172
 Finished routing net _14_<5>
-Nets remaining: 170
+Nets remaining: 171
 Finished routing net _97_
-Nets remaining: 169
+Nets remaining: 170
 Finished routing net _14_<6>
-Nets remaining: 168
+Nets remaining: 169
 Finished routing net _98_
-Nets remaining: 167
+Nets remaining: 168
 Finished routing net _14_<7>
-Nets remaining: 166
+Nets remaining: 167
 Finished routing net _99_
-Nets remaining: 165
+Nets remaining: 166
 Finished routing net _14_<8>
-Nets remaining: 164
+Nets remaining: 165
 Finished routing net _100_
-Nets remaining: 163
+Nets remaining: 164
 Finished routing net _14_<9>
-Nets remaining: 162
+Nets remaining: 163
 Finished routing net _101_
-Nets remaining: 161
+Nets remaining: 162
 Finished routing net _14_<10>
-Nets remaining: 160
+Nets remaining: 161
 Finished routing net _102_
-Nets remaining: 159
+Nets remaining: 160
 Finished routing net _14_<11>
-Nets remaining: 158
+Nets remaining: 159
 Finished routing net _103_
-Nets remaining: 157
+Nets remaining: 158
 Finished routing net _14_<12>
-Nets remaining: 156
+Nets remaining: 157
 Finished routing net _104_
-Nets remaining: 155
+Nets remaining: 156
 Finished routing net _14_<13>
-Nets remaining: 154
+Nets remaining: 155
 Finished routing net _105_
-Nets remaining: 153
+Nets remaining: 154
 Finished routing net _14_<14>
-Nets remaining: 152
+Nets remaining: 153
 Finished routing net _106_
-Nets remaining: 151
+Nets remaining: 152
 Finished routing net _14_<15>
-Nets remaining: 150
+Nets remaining: 151
 Finished routing net _128_<0>
-Nets remaining: 149
+Nets remaining: 150
 Finished routing net _146_
-Nets remaining: 148
+Nets remaining: 149
 Finished routing net _147_
-Nets remaining: 147
+Nets remaining: 148
 Finished routing net _149_
-Nets remaining: 146
+Nets remaining: 147
 Finished routing net _150_
-Nets remaining: 145
+Nets remaining: 146
 Finished routing net _128_<1>
-Nets remaining: 144
+Nets remaining: 145
 Finished routing net _152_
-Nets remaining: 143
+Nets remaining: 144
 Finished routing net _153_
-Nets remaining: 142
+Nets remaining: 143
 Finished routing net _154_
-Nets remaining: 141
+Nets remaining: 142
 Finished routing net _128_<2>
-Nets remaining: 140
+Nets remaining: 141
 Finished routing net _156_
-Nets remaining: 139
+Nets remaining: 140
 Finished routing net _158_
+Nets remaining: 139
+Finished routing net _159_
 Nets remaining: 138
-Failed to remove stacked via at grid point 138 51.
-Failed to route net _159_
 Finished routing net _128_<3>
 Nets remaining: 137
 Finished routing net _160_
@@ -2219,14 +2209,17 @@ Finished routing net vdd
 Nets remaining: 27
 
 ----------------------------------------------
-Progress: Stage 3 total routes completed: 2048
+Progress: Stage 3 total routes completed: 2061
 Failed net routes: 1
 ----------------------------------------------
 *** Running stage2 routing with options break, mask none
 Nets remaining: 1
+Best route of _33_ collides with nets: DC1.DOP 
+Ripping up blocking net DC1.DOP
+Nets remaining: 1
 
 ----------------------------------------------
-Progress: Stage 2 total routes completed: 2049
+Progress: Stage 2 total routes completed: 2076
 No failed routes!
 ----------------------------------------------
 *** Running stage3 routing with defaults, 2nd round
@@ -2890,325 +2883,335 @@ Finished routing net _88_
 Nets remaining: 185
 Finished routing net _89_
 Nets remaining: 184
-Finished routing net _90_
-Nets remaining: 183
+Failed to remove stacked via at grid point 172 68.
+Failed to route net _90_
 Finished routing net _16_<7>
-Nets remaining: 182
+Nets remaining: 183
 Finished routing net _91_
-Nets remaining: 181
+Nets remaining: 182
 Finished routing net _14_<0>
-Nets remaining: 180
+Nets remaining: 181
 Finished routing net _92_
-Nets remaining: 179
+Nets remaining: 180
 Finished routing net _14_<1>
-Nets remaining: 178
+Nets remaining: 179
 Finished routing net _93_
-Nets remaining: 177
+Nets remaining: 178
 Finished routing net _14_<2>
-Nets remaining: 176
+Nets remaining: 177
 Finished routing net _94_
-Nets remaining: 175
+Nets remaining: 176
 Finished routing net _14_<3>
-Nets remaining: 174
+Nets remaining: 175
 Finished routing net _95_
-Nets remaining: 173
+Nets remaining: 174
 Finished routing net _14_<4>
-Nets remaining: 172
+Nets remaining: 173
 Finished routing net _96_
-Nets remaining: 171
+Nets remaining: 172
 Finished routing net _14_<5>
-Nets remaining: 170
+Nets remaining: 171
 Finished routing net _97_
-Nets remaining: 169
+Nets remaining: 170
 Finished routing net _14_<6>
-Nets remaining: 168
+Nets remaining: 169
 Finished routing net _98_
-Nets remaining: 167
+Nets remaining: 168
 Finished routing net _14_<7>
-Nets remaining: 166
+Nets remaining: 167
 Finished routing net _99_
-Nets remaining: 165
+Nets remaining: 166
 Finished routing net _14_<8>
-Nets remaining: 164
+Nets remaining: 165
 Finished routing net _100_
-Nets remaining: 163
+Nets remaining: 164
 Finished routing net _14_<9>
-Nets remaining: 162
+Nets remaining: 163
 Finished routing net _101_
-Nets remaining: 161
+Nets remaining: 162
 Finished routing net _14_<10>
-Nets remaining: 160
+Nets remaining: 161
 Finished routing net _102_
-Nets remaining: 159
+Nets remaining: 160
 Finished routing net _14_<11>
-Nets remaining: 158
+Nets remaining: 159
 Finished routing net _103_
-Nets remaining: 157
+Nets remaining: 158
 Finished routing net _14_<12>
-Nets remaining: 156
+Nets remaining: 157
 Finished routing net _104_
-Nets remaining: 155
+Nets remaining: 156
 Finished routing net _14_<13>
-Nets remaining: 154
+Nets remaining: 155
 Finished routing net _105_
-Nets remaining: 153
+Nets remaining: 154
 Finished routing net _14_<14>
-Nets remaining: 152
+Nets remaining: 153
 Finished routing net _106_
-Nets remaining: 151
+Nets remaining: 152
 Finished routing net _14_<15>
-Nets remaining: 150
+Nets remaining: 151
 Finished routing net _128_<0>
-Nets remaining: 149
+Nets remaining: 150
 Finished routing net _146_
-Nets remaining: 148
+Nets remaining: 149
 Finished routing net _147_
-Nets remaining: 147
+Nets remaining: 148
 Finished routing net _149_
-Nets remaining: 146
+Nets remaining: 147
 Finished routing net _150_
-Nets remaining: 145
+Nets remaining: 146
 Finished routing net _128_<1>
-Nets remaining: 144
+Nets remaining: 145
 Finished routing net _152_
-Nets remaining: 143
+Nets remaining: 144
 Finished routing net _153_
-Nets remaining: 142
+Nets remaining: 143
 Finished routing net _154_
-Nets remaining: 141
+Nets remaining: 142
 Finished routing net _128_<2>
-Nets remaining: 140
+Nets remaining: 141
 Finished routing net _156_
-Nets remaining: 139
+Nets remaining: 140
 Finished routing net _158_
-Nets remaining: 138
+Nets remaining: 139
 Finished routing net _159_
-Nets remaining: 137
+Nets remaining: 138
 Finished routing net _128_<3>
-Nets remaining: 136
+Nets remaining: 137
 Finished routing net _160_
-Nets remaining: 135
+Nets remaining: 136
 Finished routing net _161_
-Nets remaining: 134
+Nets remaining: 135
 Finished routing net _163_
-Nets remaining: 133
+Nets remaining: 134
 Finished routing net _164_
-Nets remaining: 132
+Nets remaining: 133
 Finished routing net _128_<4>
-Nets remaining: 131
+Nets remaining: 132
 Finished routing net _166_
-Nets remaining: 130
+Nets remaining: 131
 Finished routing net _169_
-Nets remaining: 129
+Nets remaining: 130
 Finished routing net _170_
-Nets remaining: 128
+Nets remaining: 129
 Finished routing net _128_<5>
-Nets remaining: 127
+Nets remaining: 128
 Finished routing net _171_
-Nets remaining: 126
+Nets remaining: 127
 Finished routing net _174_
-Nets remaining: 125
+Nets remaining: 126
 Finished routing net _175_
-Nets remaining: 124
+Nets remaining: 125
 Finished routing net _176_
-Nets remaining: 123
+Nets remaining: 124
 Finished routing net _128_<6>
-Nets remaining: 122
+Nets remaining: 123
 Finished routing net _178_
-Nets remaining: 121
+Nets remaining: 122
 Finished routing net _179_
-Nets remaining: 120
+Nets remaining: 121
 Finished routing net _180_
-Nets remaining: 119
+Nets remaining: 120
 Finished routing net _128_<7>
-Nets remaining: 118
+Nets remaining: 119
 Finished routing net _182_
-Nets remaining: 117
+Nets remaining: 118
 Finished routing net _183_
-Nets remaining: 116
+Nets remaining: 117
 Finished routing net _184_
-Nets remaining: 115
+Nets remaining: 116
 Finished routing net _186_
-Nets remaining: 114
+Nets remaining: 115
 Finished routing net _188_
-Nets remaining: 113
+Nets remaining: 114
 Finished routing net _128_<8>
-Nets remaining: 112
+Nets remaining: 113
 Finished routing net _189_
-Nets remaining: 111
+Nets remaining: 112
 Finished routing net _191_
-Nets remaining: 110
+Nets remaining: 111
 Finished routing net _192_
-Nets remaining: 109
+Nets remaining: 110
 Finished routing net _128_<9>
-Nets remaining: 108
+Nets remaining: 109
 Finished routing net _193_
-Nets remaining: 107
+Nets remaining: 108
 Finished routing net _195_
-Nets remaining: 106
+Nets remaining: 107
 Finished routing net _196_
-Nets remaining: 105
+Nets remaining: 106
 Finished routing net _128_<10>
-Nets remaining: 104
+Nets remaining: 105
 Finished routing net _199_
-Nets remaining: 103
+Nets remaining: 104
 Finished routing net _200_
-Nets remaining: 102
+Nets remaining: 103
 Finished routing net _201_
-Nets remaining: 101
+Nets remaining: 102
 Finished routing net _128_<11>
-Nets remaining: 100
+Nets remaining: 101
 Finished routing net _134_
-Nets remaining: 99
+Nets remaining: 100
 Finished routing net _128_<12>
-Nets remaining: 98
+Nets remaining: 99
 Finished routing net _135_
-Nets remaining: 97
+Nets remaining: 98
 Finished routing net _138_
-Nets remaining: 96
+Nets remaining: 97
 Finished routing net _139_
-Nets remaining: 95
+Nets remaining: 96
 Finished routing net _128_<13>
-Nets remaining: 94
+Nets remaining: 95
 Finished routing net _140_
-Nets remaining: 93
+Nets remaining: 94
 Finished routing net _141_
-Nets remaining: 92
+Nets remaining: 93
 Finished routing net _142_
-Nets remaining: 91
+Nets remaining: 92
 Finished routing net _143_
-Nets remaining: 90
+Nets remaining: 91
 Finished routing net _144_
-Nets remaining: 89
+Nets remaining: 90
 Finished routing net _145_
-Nets remaining: 88
+Nets remaining: 89
 Finished routing net _128_<14>
-Nets remaining: 87
+Nets remaining: 88
 Finished routing net _220_
-Nets remaining: 86
+Nets remaining: 87
 Finished routing net _221_
-Nets remaining: 85
+Nets remaining: 86
 Finished routing net _224_
-Nets remaining: 84
+Nets remaining: 85
 Finished routing net RF
-Nets remaining: 83
+Nets remaining: 84
 Finished routing net _230_
-Nets remaining: 82
+Nets remaining: 83
 Finished routing net _231_
-Nets remaining: 81
+Nets remaining: 82
 Finished routing net WF
-Nets remaining: 80
+Nets remaining: 81
 Finished routing net _234_
-Nets remaining: 79
+Nets remaining: 80
 Finished routing net _235_
-Nets remaining: 78
+Nets remaining: 79
 Finished routing net _240_
-Nets remaining: 77
+Nets remaining: 78
 Finished routing net _241_
-Nets remaining: 76
+Nets remaining: 77
 Finished routing net _242_
-Nets remaining: 75
+Nets remaining: 76
 Finished routing net OPC1.bracketcount<7>
-Nets remaining: 74
+Nets remaining: 75
 Finished routing net _247_
-Nets remaining: 73
+Nets remaining: 74
 Finished routing net _248_
-Nets remaining: 72
+Nets remaining: 73
 Finished routing net _249_
-Nets remaining: 71
+Nets remaining: 72
 Finished routing net _251_
-Nets remaining: 70
+Nets remaining: 71
 Finished routing net _252_
-Nets remaining: 69
+Nets remaining: 70
 Finished routing net _255_
-Nets remaining: 68
+Nets remaining: 69
 Finished routing net _256_
-Nets remaining: 67
+Nets remaining: 68
 Finished routing net OPC1.NEXTSTATE<0>
-Nets remaining: 66
+Nets remaining: 67
 Finished routing net _258_
-Nets remaining: 65
+Nets remaining: 66
 Finished routing net _260_
-Nets remaining: 64
+Nets remaining: 65
 Finished routing net _261_
-Nets remaining: 63
+Nets remaining: 64
 Finished routing net _263_
-Nets remaining: 62
+Nets remaining: 63
 Finished routing net _264_
-Nets remaining: 61
+Nets remaining: 62
 Finished routing net _265_
-Nets remaining: 60
+Nets remaining: 61
 Finished routing net _267_
-Nets remaining: 59
+Nets remaining: 60
 Finished routing net _268_
-Nets remaining: 58
+Nets remaining: 59
 Finished routing net _269_
-Nets remaining: 57
+Nets remaining: 58
 Finished routing net OPC1.NEXTSTATE<1>
-Nets remaining: 56
+Nets remaining: 57
 Finished routing net _270_
-Nets remaining: 55
+Nets remaining: 56
 Finished routing net _271_
-Nets remaining: 54
+Nets remaining: 55
 Finished routing net _272_
-Nets remaining: 53
+Nets remaining: 54
 Finished routing net _273_
-Nets remaining: 52
+Nets remaining: 53
 Finished routing net _274_
-Nets remaining: 51
+Nets remaining: 52
 Finished routing net _275_
-Nets remaining: 50
+Nets remaining: 51
 Finished routing net _276_
-Nets remaining: 49
+Nets remaining: 50
 Finished routing net _277_
-Nets remaining: 48
+Nets remaining: 49
 Finished routing net _278_
-Nets remaining: 47
+Nets remaining: 48
 Finished routing net _279_
-Nets remaining: 46
+Nets remaining: 47
 Finished routing net _281_
-Nets remaining: 45
+Nets remaining: 46
 Finished routing net _282_
-Nets remaining: 44
+Nets remaining: 45
 Finished routing net OPC1.NEXTSTATE<2>
-Nets remaining: 43
+Nets remaining: 44
 Finished routing net _283_
-Nets remaining: 42
+Nets remaining: 43
 Finished routing net _284_
-Nets remaining: 41
+Nets remaining: 42
 Finished routing net _285_
-Nets remaining: 40
+Nets remaining: 41
 Finished routing net _286_
-Nets remaining: 39
+Nets remaining: 40
 Finished routing net _287_
-Nets remaining: 38
+Nets remaining: 39
 Finished routing net _288_
-Nets remaining: 37
+Nets remaining: 38
 Finished routing net _289_
-Nets remaining: 36
+Nets remaining: 37
 Finished routing net _203_
-Nets remaining: 35
+Nets remaining: 36
 Finished routing net _204_
-Nets remaining: 34
+Nets remaining: 35
 Finished routing net OPC1.NEXTSTATE<3>
-Nets remaining: 33
+Nets remaining: 34
 Finished routing net _205_
-Nets remaining: 32
+Nets remaining: 33
 Finished routing net _206_
-Nets remaining: 31
+Nets remaining: 32
 Finished routing net _207_
-Nets remaining: 30
+Nets remaining: 31
 Finished routing net _208_
-Nets remaining: 29
+Nets remaining: 30
 Finished routing net _209_
-Nets remaining: 28
+Nets remaining: 29
 Finished routing net _210_
-Nets remaining: 27
+Nets remaining: 28
 Finished routing net vdd
-Nets remaining: 26
+Nets remaining: 27
 
 ----------------------------------------------
-Progress: Stage 3 total routes completed: 3062
+Progress: Stage 3 total routes completed: 3088
+Failed net routes: 1
+----------------------------------------------
+*** Running stage2 routing with options break, mask none
+Nets remaining: 1
+Best route of _90_ collides with nets: _89_ 
+Ripping up blocking net _89_
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 3090
 No failed routes!
 ----------------------------------------------
 *** Writing DEF file BFCPU_route.def
@@ -3217,1212 +3220,1215 @@ Final: No failed routes!
 ----------------------------------------------
 Walking net DC1.DOP.
 Has 17 nodes.
-After segmenting, has 30 routes.
+After segmenting, has 28 routes.
 Driver node NOR2X1_2/Y
-Connects to 75, 62, 1
-Connects to 75, 62, 2
-Connects to 81, 62, 1
-Connects to 81, 62, 2
-Connects to 84, 88, 2
-Connects to 84, 88, 3
-Connects to 84, 109, 2
-Connects to 84, 109, 2
-Connects to 102, 109, 1
-Connects to 102, 109, 2
-Connects to 105, 109, 1
-Connects to 105, 111, 0
-Connects to 105, 111, 1
-Connects to 105, 109, 2
-Connects to 119, 109, 1
-Connects to 119, 109, 2
-Connects to 131, 109, 2
-Connects to 131, 109, 1
-Connects to 131, 116, 0
-Connects to 131, 116, 0
-Connects to 131, 116, 1
-Connects to 150, 116, 2
-Connects to 150, 116, 2
-Connects to 150, 103, 2
-Connects to 150, 102, 1
-Connects to 150, 102, 2
-Connects to 150, 103, 3
-Connects to 140, 87, 1
-Connects to 140, 87, 1
+Connects to 118, 50, 0
+Connects to 118, 50, 1
+Connects to 130, 49, 0
+Connects to 130, 49, 1
+Connects to 130, 49, 1
+Connects to 144, 56, 1
+Connects to 144, 56, 2
+Connects to 160, 56, 2
+Connects to 170, 56, 0
+Connects to 160, 56, 2
+Connects to 160, 68, 0
+Connects to 160, 68, 1
+Connects to 161, 70, 2
+Connects to 167, 71, 0
+Connects to 167, 71, 1
+Connects to 176, 76, 2
+Connects to 176, 76, 1
+Connects to 161, 70, 1
+Connects to 161, 79, 0
+Connects to 161, 79, 1
+Connects to 150, 88, 1
+Connects to 150, 90, 1
+Connects to 148, 98, 1
+Connects to 148, 98, 1
+Connects to 122, 98, 1
+Connects to 122, 98, 2
+Connects to 150, 88, 1
 Walking net DC1.LD.
 Has 16 nodes.
-After segmenting, has 26 routes.
+After segmenting, has 28 routes.
 Driver node NOR2X1_4/Y
-Connects to 69, 94, 3
-Connects to 69, 94, 2
-Connects to 98, 94, 1
-Connects to 98, 94, 2
-Connects to 114, 94, 2
-Connects to 114, 94, 1
-Connects to 114, 109, 0
-Connects to 114, 109, 1
-Connects to 137, 110, 2
-Connects to 139, 110, 1
-Connects to 139, 110, 1
-Connects to 139, 117, 0
-Connects to 139, 117, 1
-Connects to 142, 117, 1
-Connects to 142, 117, 2
-Connects to 146, 117, 0
-Connects to 146, 117, 1
-Connects to 157, 118, 1
-Connects to 157, 117, 0
-Connects to 157, 117, 1
-Connects to 157, 109, 0
-Connects to 157, 118, 2
-Connects to 160, 117, 0
-Connects to 161, 117, 0
-Connects to 137, 110, 1
+Connects to 161, 57, 1
+Connects to 161, 57, 2
+Connects to 164, 57, 0
+Connects to 164, 57, 1
+Connects to 177, 58, 2
+Connects to 180, 58, 1
+Connects to 180, 58, 1
+Connects to 180, 58, 2
+Connects to 185, 58, 2
+Connects to 185, 58, 2
+Connects to 180, 58, 1
+Connects to 180, 69, 1
+Connects to 180, 69, 1
+Connects to 176, 69, 0
+Connects to 176, 69, 1
+Connects to 173, 75, 1
+Connects to 173, 75, 2
+Connects to 166, 109, 1
+Connects to 166, 109, 2
+Connects to 150, 109, 1
+Connects to 150, 109, 2
+Connects to 146, 109, 1
+Connects to 146, 109, 1
+Connects to 141, 117, 0
+Connects to 141, 117, 1
+Connects to 177, 58, 1
 Walking net OPC1.INST<3>.
 Has 15 nodes.
 After segmenting, has 27 routes.
 Driver node DFFPOSX1_46/Q
-Connects to 94, 37, 1
-Connects to 94, 37, 1
-Connects to 88, 37, 1
-Connects to 88, 37, 1
-Connects to 74, 48, 1
-Connects to 74, 48, 1
-Connects to 68, 48, 1
-Connects to 68, 48, 1
-Connects to 61, 50, 0
-Connects to 61, 50, 1
-Connects to 61, 56, 0
-Connects to 61, 56, 1
-Connects to 56, 56, 2
-Connects to 56, 56, 2
-Connects to 39, 56, 1
-Connects to 39, 56, 2
-Connects to 24, 56, 1
-Connects to 24, 56, 2
-Connects to 20, 56, 2
-Connects to 20, 56, 1
-Connects to 20, 51, 0
-Connects to 20, 51, 1
-Connects to 20, 39, 0
-Connects to 20, 39, 1
-Connects to 24, 37, 0
-Connects to 24, 37, 1
+Connects to 25, 22, 2
+Connects to 25, 30, 0
+Connects to 25, 30, 0
+Connects to 25, 37, 0
+Connects to 25, 37, 1
+Connects to 31, 37, 1
+Connects to 31, 37, 1
+Connects to 42, 48, 0
+Connects to 42, 48, 0
+Connects to 42, 50, 0
+Connects to 42, 50, 1
+Connects to 83, 55, 1
+Connects to 83, 55, 1
+Connects to 94, 55, 2
+Connects to 95, 55, 2
+Connects to 95, 55, 2
+Connects to 95, 55, 1
+Connects to 95, 55, 1
+Connects to 94, 55, 1
+Connects to 94, 30, 0
+Connects to 94, 30, 1
+Connects to 111, 30, 1
+Connects to 111, 30, 2
+Connects to 116, 30, 1
+Connects to 116, 30, 1
+Connects to 25, 22, 2
 Walking net _148_.
 Has 15 nodes.
 After segmenting, has 25 routes.
 Driver node INVX8_1/Y
-Connects to 129, 49, 2
-Connects to 135, 49, 1
-Connects to 135, 49, 2
-Connects to 144, 49, 1
-Connects to 145, 49, 0
-Connects to 144, 49, 2
-Connects to 129, 49, 1
-Connects to 129, 37, 0
-Connects to 129, 37, 1
-Connects to 129, 37, 2
-Connects to 134, 37, 1
-Connects to 134, 37, 2
-Connects to 150, 37, 2
-Connects to 150, 37, 1
-Connects to 150, 18, 0
-Connects to 150, 18, 0
-Connects to 149, 9, 0
-Connects to 149, 9, 1
-Connects to 139, 9, 1
-Connects to 139, 9, 2
-Connects to 121, 9, 1
-Connects to 121, 10, 0
-Connects to 121, 9, 2
-Connects to 129, 37, 2
+Connects to 75, 78, 0
+Connects to 75, 78, 2
+Connects to 68, 78, 0
+Connects to 68, 78, 1
+Connects to 68, 81, 1
+Connects to 67, 89, 0
+Connects to 68, 98, 0
+Connects to 68, 98, 1
+Connects to 61, 98, 1
+Connects to 61, 98, 1
+Connects to 61, 98, 1
+Connects to 61, 108, 0
+Connects to 61, 108, 1
+Connects to 58, 114, 1
+Connects to 58, 114, 1
+Connects to 61, 98, 2
+Connects to 68, 81, 1
+Connects to 49, 69, 1
+Connects to 49, 69, 1
+Connects to 36, 69, 1
+Connects to 36, 69, 2
+Connects to 75, 78, 2
+Connects to 87, 90, 0
+Connects to 87, 90, 1
 Walking net DC1.INP.
 Has 13 nodes.
-After segmenting, has 22 routes.
+After segmenting, has 23 routes.
 Driver node NOR2X1_7/Y
-Connects to 80, 102, 1
-Connects to 80, 102, 1
-Connects to 102, 102, 1
-Connects to 102, 102, 2
-Connects to 108, 108, 1
-Connects to 108, 109, 0
-Connects to 108, 109, 1
-Connects to 108, 108, 1
-Connects to 117, 108, 1
-Connects to 117, 108, 2
-Connects to 125, 108, 1
-Connects to 125, 118, 1
-Connects to 134, 118, 0
-Connects to 134, 118, 1
-Connects to 151, 118, 0
-Connects to 151, 118, 1
-Connects to 153, 109, 1
-Connects to 153, 109, 1
-Connects to 153, 98, 0
-Connects to 153, 98, 1
-Connects to 125, 108, 1
+Connects to 132, 51, 0
+Connects to 132, 51, 1
+Connects to 167, 54, 1
+Connects to 167, 58, 0
+Connects to 167, 58, 1
+Connects to 167, 54, 2
+Connects to 172, 54, 1
+Connects to 172, 54, 2
+Connects to 174, 58, 0
+Connects to 174, 58, 1
+Connects to 174, 69, 0
+Connects to 174, 69, 1
+Connects to 171, 69, 1
+Connects to 171, 69, 1
+Connects to 177, 78, 0
+Connects to 177, 78, 1
+Connects to 179, 78, 2
+Connects to 179, 78, 1
+Connects to 179, 98, 0
+Connects to 179, 98, 1
+Connects to 161, 98, 0
+Connects to 161, 98, 1
 Walking net OPC1.INST<2>.
 Has 11 nodes.
-After segmenting, has 18 routes.
+After segmenting, has 19 routes.
 Driver node DFFPOSX1_45/Q
-Connects to 16, 36, 0
-Connects to 16, 36, 1
-Connects to 25, 36, 1
-Connects to 25, 37, 0
-Connects to 25, 37, 1
-Connects to 26, 58, 1
-Connects to 26, 58, 1
-Connects to 26, 58, 1
-Connects to 52, 57, 1
-Connects to 59, 50, 1
-Connects to 59, 50, 2
-Connects to 68, 50, 1
-Connects to 68, 50, 2
-Connects to 52, 57, 1
-Connects to 26, 58, 2
-Connects to 25, 36, 1
+Connects to 104, 30, 0
+Connects to 104, 30, 1
+Connects to 104, 31, 1
+Connects to 100, 31, 1
+Connects to 100, 31, 1
+Connects to 97, 38, 1
+Connects to 97, 38, 1
+Connects to 91, 50, 1
+Connects to 85, 53, 1
+Connects to 85, 53, 2
+Connects to 43, 53, 1
+Connects to 43, 49, 0
+Connects to 43, 49, 1
+Connects to 43, 53, 2
+Connects to 36, 53, 1
+Connects to 36, 53, 2
+Connects to 91, 50, 1
+Connects to 104, 31, 2
 Walking net OPC1.INST<1>.
 Has 10 nodes.
-After segmenting, has 16 routes.
+After segmenting, has 17 routes.
 Driver node DFFPOSX1_44/Q
-Connects to 23, 52, 2
-Connects to 23, 52, 1
-Connects to 23, 52, 2
-Connects to 41, 52, 1
-Connects to 41, 52, 2
-Connects to 62, 52, 1
-Connects to 62, 52, 2
-Connects to 23, 52, 1
-Connects to 21, 38, 1
-Connects to 21, 38, 2
-Connects to 18, 29, 0
-Connects to 18, 29, 1
-Connects to 34, 29, 0
-Connects to 34, 29, 1
+Connects to 35, 50, 0
+Connects to 35, 50, 1
+Connects to 40, 51, 1
+Connects to 40, 51, 1
+Connects to 81, 51, 1
+Connects to 81, 51, 1
+Connects to 83, 51, 1
+Connects to 83, 51, 1
+Connects to 86, 51, 2
+Connects to 88, 51, 1
+Connects to 88, 51, 1
+Connects to 86, 51, 1
+Connects to 86, 39, 0
+Connects to 86, 39, 1
+Connects to 99, 29, 0
+Connects to 99, 29, 1
 Walking net DPC1.DPOP.
 Has 10 nodes.
 After segmenting, has 16 routes.
 Driver node AND2X2_1/Y
-Connects to 130, 50, 2
-Connects to 143, 50, 1
-Connects to 143, 50, 2
-Connects to 150, 50, 2
-Connects to 150, 50, 2
-Connects to 150, 59, 0
-Connects to 150, 59, 1
-Connects to 152, 68, 0
-Connects to 152, 68, 1
-Connects to 130, 50, 2
-Connects to 130, 19, 3
-Connects to 131, 19, 1
-Connects to 130, 19, 0
-Connects to 131, 19, 1
-Connects to 130, 19, 3
+Connects to 77, 60, 1
+Connects to 56, 59, 1
+Connects to 56, 59, 2
+Connects to 34, 59, 1
+Connects to 34, 59, 1
+Connects to 33, 68, 0
+Connects to 33, 68, 1
+Connects to 77, 60, 1
+Connects to 74, 90, 0
+Connects to 75, 99, 0
+Connects to 75, 99, 1
+Connects to 75, 108, 2
+Connects to 75, 108, 2
+Connects to 59, 108, 1
+Connects to 59, 108, 1
 Walking net DC1.WDATA<3>.
 Has 10 nodes.
-After segmenting, has 16 routes.
+After segmenting, has 17 routes.
 Driver node DFFPOSX1_21/Q
-Connects to 69, 73, 2
-Connects to 69, 73, 2
-Connects to 81, 73, 1
-Connects to 81, 71, 1
-Connects to 84, 63, 1
-Connects to 84, 63, 2
-Connects to 81, 73, 1
-Connects to 98, 74, 1
-Connects to 98, 71, 0
-Connects to 98, 71, 1
-Connects to 98, 74, 1
-Connects to 98, 77, 0
-Connects to 98, 77, 1
-Connects to 98, 90, 2
-Connects to 98, 90, 2
+Connects to 155, 42, 1
+Connects to 155, 51, 1
+Connects to 174, 51, 0
+Connects to 174, 51, 1
+Connects to 155, 51, 1
+Connects to 150, 71, 0
+Connects to 150, 71, 1
+Connects to 136, 74, 1
+Connects to 136, 74, 1
+Connects to 112, 71, 1
+Connects to 112, 70, 0
+Connects to 112, 70, 1
+Connects to 112, 71, 2
+Connects to 155, 42, 1
+Connects to 137, 38, 0
+Connects to 137, 38, 1
 Walking net NEXTOP<0>.
 Has 10 nodes.
 After segmenting, has 16 routes.
 Driver node NEXTOP<0>/pin
-Connects to 38, 9, 0
-Connects to 41, 31, 0
-Connects to 41, 31, 1
-Connects to 42, 31, 1
-Connects to 51, 29, 1
-Connects to 60, 29, 1
-Connects to 60, 29, 1
-Connects to 60, 21, 1
-Connects to 60, 21, 1
-Connects to 65, 21, 2
-Connects to 68, 21, 1
-Connects to 68, 21, 2
-Connects to 65, 21, 1
-Connects to 51, 29, 1
-Connects to 42, 31, 2
+Connects to 50, 11, 0
+Connects to 50, 11, 1
+Connects to 49, 11, 1
+Connects to 30, 11, 0
+Connects to 30, 11, 1
+Connects to 34, 19, 0
+Connects to 34, 19, 0
+Connects to 49, 11, 2
+Connects to 57, 20, 0
+Connects to 58, 20, 0
+Connects to 58, 20, 0
+Connects to 59, 36, 1
+Connects to 59, 37, 1
+Connects to 59, 36, 1
+Connects to 57, 20, 1
 Walking net clk_bF$buf5.
 Has 9 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 13 routes.
 Driver node BUFX4_7/Y
-Connects to 81, 57, 2
-Connects to 81, 57, 2
-Connects to 94, 57, 2
-Connects to 94, 57, 2
-Connects to 130, 70, 2
-Connects to 130, 70, 2
+Connects to 122, 37, 1
+Connects to 122, 30, 1
+Connects to 122, 30, 1
+Connects to 139, 30, 1
+Connects to 139, 30, 1
+Connects to 139, 30, 2
+Connects to 139, 30, 1
+Connects to 139, 50, 0
+Connects to 139, 50, 1
+Connects to 122, 37, 1
 Walking net clk_bF$buf4.
 Has 9 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 14 routes.
 Driver node BUFX4_8/Y
-Connects to 29, 89, 0
-Connects to 29, 89, 1
-Connects to 27, 79, 1
-Connects to 27, 79, 2
-Connects to 12, 78, 0
-Connects to 12, 78, 1
+Connects to 26, 51, 1
+Connects to 26, 57, 0
+Connects to 26, 57, 1
+Connects to 26, 51, 1
+Connects to 15, 50, 0
+Connects to 15, 50, 1
+Connects to 15, 37, 0
+Connects to 15, 37, 1
+Connects to 15, 30, 0
+Connects to 15, 30, 1
+Connects to 15, 18, 1
+Connects to 15, 18, 1
 Walking net clk_bF$buf3.
 Has 9 nodes.
-After segmenting, has 12 routes.
+After segmenting, has 11 routes.
 Driver node BUFX4_9/Y
-Connects to 48, 110, 0
-Connects to 48, 110, 1
-Connects to 48, 109, 1
-Connects to 48, 109, 1
-Connects to 32, 98, 0
-Connects to 32, 98, 1
-Connects to 12, 98, 0
-Connects to 12, 98, 1
+Connects to 33, 92, 1
+Connects to 33, 97, 0
+Connects to 33, 97, 1
+Connects to 13, 109, 0
+Connects to 13, 109, 1
+Connects to 33, 92, 1
 Walking net clk_bF$buf2.
 Has 9 nodes.
 After segmenting, has 12 routes.
 Driver node BUFX4_10/Y
-Connects to 98, 31, 0
-Connects to 98, 31, 1
-Connects to 90, 29, 0
-Connects to 90, 29, 1
-Connects to 104, 17, 0
-Connects to 104, 17, 1
-Connects to 160, 12, 1
-Connects to 160, 12, 2
+Connects to 138, 37, 2
+Connects to 145, 37, 2
+Connects to 145, 37, 2
+Connects to 161, 37, 2
+Connects to 161, 37, 2
+Connects to 138, 37, 2
+Connects to 117, 10, 1
+Connects to 117, 10, 2
 Walking net NEXTOP<2>.
 Has 9 nodes.
-After segmenting, has 14 routes.
+After segmenting, has 13 routes.
 Driver node NEXTOP<2>/pin
-Connects to 13, 11, 0
-Connects to 13, 11, 1
-Connects to 13, 19, 1
-Connects to 18, 19, 1
-Connects to 18, 19, 1
-Connects to 41, 19, 1
-Connects to 41, 18, 0
-Connects to 41, 18, 1
-Connects to 41, 18, 0
-Connects to 41, 19, 1
-Connects to 57, 19, 2
-Connects to 57, 19, 2
-Connects to 13, 19, 2
+Connects to 81, 8, 0
+Connects to 81, 8, 1
+Connects to 81, 17, 2
+Connects to 89, 16, 0
+Connects to 81, 17, 2
+Connects to 63, 17, 1
+Connects to 63, 17, 1
+Connects to 56, 17, 2
+Connects to 56, 17, 1
+Connects to 56, 17, 1
+Connects to 56, 17, 2
+Route segment 12 was not walked!
 Walking net _227_.
 Has 9 nodes.
 After segmenting, has 14 routes.
 Driver node INVX4_3/Y
-Connects to 43, 30, 1
-Connects to 38, 29, 1
-Connects to 37, 29, 0
-Connects to 38, 29, 2
-Connects to 43, 30, 1
-Connects to 76, 36, 1
-Connects to 76, 37, 0
-Connects to 76, 37, 1
-Connects to 83, 39, 1
-Connects to 83, 39, 1
-Connects to 76, 36, 2
-Connects to 77, 20, 1
-Connects to 77, 20, 2
+Connects to 21, 28, 0
+Connects to 21, 28, 1
+Connects to 21, 20, 2
+Connects to 36, 20, 1
+Connects to 36, 18, 0
+Connects to 36, 18, 1
+Connects to 59, 8, 1
+Connects to 59, 8, 1
+Connects to 66, 10, 0
+Connects to 66, 10, 1
+Connects to 36, 20, 2
+Connects to 21, 20, 2
 Walking net DC1.SGN_bF$buf5.
 Has 8 nodes.
 After segmenting, has 13 routes.
 Driver node BUFX4_1/Y
-Connects to 107, 51, 1
-Connects to 107, 51, 2
-Connects to 137, 57, 0
-Connects to 137, 57, 1
-Connects to 152, 59, 1
-Connects to 152, 59, 1
-Connects to 158, 51, 1
-Connects to 158, 48, 0
-Connects to 158, 48, 1
-Connects to 145, 39, 0
-Connects to 145, 39, 1
-Connects to 158, 51, 2
+Connects to 75, 48, 2
+Connects to 84, 37, 0
+Connects to 84, 37, 1
+Connects to 99, 37, 1
+Connects to 99, 37, 2
+Connects to 75, 48, 2
+Connects to 47, 47, 1
+Connects to 47, 47, 2
+Connects to 40, 10, 1
+Connects to 40, 10, 2
+Connects to 20, 10, 1
+Connects to 20, 10, 2
 Walking net DC1.SGN_bF$buf4.
 Has 8 nodes.
-After segmenting, has 12 routes.
+After segmenting, has 13 routes.
 Driver node BUFX4_2/Y
-Connects to 67, 79, 0
-Connects to 67, 79, 1
-Connects to 76, 79, 1
-Connects to 76, 79, 2
-Connects to 85, 79, 1
-Connects to 85, 79, 2
-Connects to 90, 71, 0
-Connects to 90, 71, 1
-Connects to 90, 70, 0
-Connects to 90, 70, 1
+Connects to 79, 68, 1
+Connects to 79, 68, 2
+Connects to 76, 68, 1
+Connects to 76, 77, 0
+Connects to 76, 77, 1
+Connects to 89, 97, 0
+Connects to 89, 97, 1
+Connects to 107, 97, 1
+Connects to 107, 97, 1
+Connects to 124, 88, 2
+Connects to 124, 88, 1
+Connects to 76, 68, 2
 Walking net clk_bF$buf1.
 Has 8 nodes.
-After segmenting, has 10 routes.
+After segmenting, has 11 routes.
 Driver node BUFX4_11/Y
-Connects to 166, 70, 1
-Connects to 166, 77, 0
-Connects to 166, 77, 1
-Connects to 166, 90, 0
-Connects to 166, 90, 1
-Connects to 166, 70, 1
-Connects to 166, 70, 1
+Connects to 136, 98, 0
+Connects to 136, 98, 1
+Connects to 166, 117, 1
+Connects to 166, 117, 2
+Connects to 179, 110, 0
+Connects to 179, 110, 1
+Connects to 171, 98, 0
+Connects to 171, 98, 1
 Walking net clk_bF$buf0.
 Has 8 nodes.
 After segmenting, has 11 routes.
 Driver node BUFX4_12/Y
-Connects to 71, 90, 0
-Connects to 75, 90, 2
-Connects to 75, 90, 2
-Connects to 84, 97, 0
-Connects to 84, 97, 1
-Connects to 84, 103, 2
-Connects to 94, 103, 1
-Connects to 94, 103, 1
-Connects to 84, 103, 2
+Connects to 112, 91, 1
+Connects to 112, 91, 2
+Connects to 102, 98, 0
+Connects to 102, 98, 1
+Connects to 102, 109, 0
+Connects to 102, 109, 1
+Connects to 102, 114, 2
+Connects to 102, 114, 2
 Walking net DPC1.DP<0>.
 Has 8 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 13 routes.
 Driver node DFFPOSX1_28/Q
-Connects to 164, 75, 1
-Connects to 164, 75, 1
-Connects to 154, 64, 2
-Connects to 146, 64, 1
-Connects to 146, 71, 0
-Connects to 146, 64, 2
-Connects to 125, 57, 0
-Connects to 154, 64, 2
-Connects to 154, 57, 0
-Connects to 154, 57, 1
+Connects to 15, 62, 1
+Connects to 12, 76, 0
+Connects to 12, 76, 0
+Connects to 12, 76, 1
+Connects to 12, 76, 1
+Connects to 19, 77, 1
+Connects to 19, 77, 2
+Connects to 27, 89, 1
+Connects to 27, 89, 2
+Connects to 35, 91, 0
+Connects to 35, 91, 1
+Connects to 15, 62, 2
 Walking net DC1.WDATA<4>.
 Has 8 nodes.
-After segmenting, has 13 routes.
+After segmenting, has 12 routes.
 Driver node DFFPOSX1_22/Q
-Connects to 70, 75, 1
-Connects to 70, 75, 1
-Connects to 80, 70, 0
-Connects to 80, 70, 1
-Connects to 102, 69, 1
-Connects to 102, 69, 1
-Connects to 119, 69, 1
-Connects to 119, 69, 1
-Connects to 119, 78, 0
-Connects to 119, 78, 1
-Connects to 120, 78, 1
-Connects to 120, 78, 2
+Connects to 134, 63, 2
+Connects to 134, 68, 0
+Connects to 134, 68, 0
+Connects to 134, 69, 1
+Connects to 134, 77, 1
+Connects to 134, 78, 1
+Connects to 134, 77, 1
+Connects to 153, 77, 1
+Connects to 153, 77, 1
+Connects to 134, 69, 1
+Connects to 134, 63, 2
 Walking net DC1.WDATA<5>.
 Has 8 nodes.
-After segmenting, has 13 routes.
+After segmenting, has 12 routes.
 Driver node DFFPOSX1_23/Q
-Connects to 149, 74, 1
-Connects to 151, 74, 1
-Connects to 151, 74, 1
-Connects to 149, 74, 2
-Connects to 131, 77, 1
-Connects to 131, 77, 1
-Connects to 125, 77, 1
-Connects to 125, 77, 2
-Connects to 122, 77, 2
-Connects to 122, 77, 1
-Connects to 122, 70, 0
-Connects to 122, 70, 1
+Connects to 158, 85, 1
+Connects to 137, 85, 1
+Connects to 137, 77, 0
+Connects to 135, 77, 0
+Connects to 137, 77, 1
+Connects to 137, 85, 1
+Connects to 158, 85, 1
+Connects to 158, 78, 0
+Connects to 158, 78, 1
+Connects to 163, 78, 0
+Connects to 163, 78, 1
 Walking net NEXTOP<1>.
 Has 8 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 13 routes.
 Driver node NEXTOP<1>/pin
-Connects to 33, 10, 0
-Connects to 32, 10, 0
-Connects to 32, 18, 1
-Connects to 32, 18, 1
-Connects to 38, 18, 0
-Connects to 38, 18, 1
-Connects to 44, 17, 1
-Connects to 44, 17, 1
-Connects to 59, 17, 2
-Connects to 59, 17, 2
+Connects to 94, 13, 1
+Connects to 94, 13, 1
+Connects to 75, 13, 1
+Connects to 75, 17, 0
+Connects to 75, 17, 1
+Connects to 75, 13, 1
+Connects to 61, 19, 1
+Connects to 61, 19, 1
+Connects to 58, 19, 1
+Connects to 58, 19, 1
+Connects to 54, 19, 2
+Connects to 54, 19, 2
 Walking net _225_.
 Has 8 nodes.
-After segmenting, has 13 routes.
+After segmenting, has 10 routes.
 Driver node NAND2X1_33/Y
-Connects to 33, 55, 2
-Connects to 33, 55, 2
-Connects to 33, 41, 3
-Connects to 33, 20, 1
-Connects to 33, 20, 2
-Connects to 21, 20, 1
-Connects to 21, 20, 2
-Connects to 33, 41, 2
-Connects to 61, 38, 0
-Connects to 61, 38, 0
-Connects to 62, 17, 1
-Connects to 62, 17, 1
+Connects to 110, 38, 0
+Connects to 68, 38, 0
+Connects to 68, 31, 2
+Connects to 68, 31, 2
+Connects to 70, 17, 0
+Connects to 70, 17, 1
+Connects to 70, 16, 1
+Connects to 70, 16, 1
 Walking net _229_.
 Has 8 nodes.
 After segmenting, has 13 routes.
 Driver node INVX4_4/Y
-Connects to 51, 38, 1
-Connects to 61, 37, 0
-Connects to 61, 37, 1
-Connects to 63, 19, 2
-Connects to 63, 19, 1
-Connects to 51, 38, 1
-Connects to 35, 38, 0
-Connects to 35, 38, 1
-Connects to 34, 37, 2
-Connects to 15, 37, 1
-Connects to 15, 37, 1
-Connects to 34, 37, 2
+Connects to 81, 38, 1
+Connects to 76, 38, 0
+Connects to 76, 38, 1
+Connects to 69, 36, 1
+Connects to 69, 36, 2
+Connects to 61, 36, 1
+Connects to 61, 36, 1
+Connects to 81, 38, 1
+Connects to 80, 29, 0
+Connects to 80, 29, 1
+Connects to 78, 20, 1
+Connects to 78, 20, 1
 Walking net DC1.SGN.
 Has 7 nodes.
 After segmenting, has 11 routes.
 Driver node DFFPOSX1_43/Q
-Connects to 75, 42, 1
-Connects to 99, 42, 1
-Connects to 99, 38, 0
-Connects to 99, 38, 1
-Connects to 118, 38, 0
-Connects to 118, 38, 1
-Connects to 99, 42, 1
-Connects to 75, 42, 1
-Connects to 62, 57, 2
-Connects to 62, 57, 1
+Connects to 47, 61, 1
+Connects to 72, 58, 1
+Connects to 85, 58, 2
+Connects to 92, 58, 0
+Connects to 92, 58, 1
+Connects to 92, 69, 0
+Connects to 92, 69, 1
+Connects to 85, 58, 1
+Connects to 72, 58, 1
+Connects to 47, 61, 2
 Walking net DC1.SGN_bF$buf3.
 Has 7 nodes.
 After segmenting, has 10 routes.
 Driver node BUFX4_3/Y
-Connects to 102, 39, 1
-Connects to 91, 38, 0
-Connects to 92, 29, 1
-Connects to 92, 29, 1
-Connects to 74, 30, 0
-Connects to 74, 30, 1
-Connects to 102, 39, 1
-Connects to 116, 30, 0
-Connects to 116, 30, 1
+Connects to 89, 57, 1
+Connects to 93, 57, 0
+Connects to 93, 57, 1
+Connects to 107, 58, 1
+Connects to 107, 58, 1
+Connects to 113, 56, 0
+Connects to 113, 56, 1
+Connects to 89, 57, 1
+Connects to 88, 50, 0
 Walking net DC1.SGN_bF$buf2.
 Has 7 nodes.
 After segmenting, has 11 routes.
 Driver node BUFX4_4/Y
-Connects to 46, 57, 1
-Connects to 46, 57, 2
-Connects to 33, 50, 1
-Connects to 33, 50, 1
-Connects to 28, 50, 1
-Connects to 28, 50, 2
-Connects to 22, 50, 1
-Connects to 22, 50, 1
-Connects to 22, 50, 1
-Connects to 22, 50, 2
+Connects to 95, 74, 1
+Connects to 95, 74, 1
+Connects to 118, 78, 0
+Connects to 118, 78, 1
+Connects to 146, 78, 1
+Connects to 146, 78, 2
+Connects to 149, 78, 2
+Connects to 149, 78, 1
+Connects to 149, 69, 1
+Connects to 149, 69, 1
 Walking net DC1.SGN_bF$buf1.
 Has 7 nodes.
 After segmenting, has 10 routes.
 Driver node BUFX4_5/Y
-Connects to 125, 72, 2
-Connects to 125, 72, 2
-Connects to 110, 78, 0
-Connects to 109, 84, 1
-Connects to 109, 84, 1
-Connects to 118, 89, 0
-Connects to 118, 89, 1
-Connects to 136, 98, 2
-Connects to 136, 98, 2
+Connects to 82, 98, 0
+Connects to 82, 98, 1
+Connects to 82, 109, 0
+Connects to 82, 109, 1
+Connects to 82, 109, 2
+Connects to 82, 109, 2
+Connects to 82, 98, 1
+Connects to 72, 98, 0
+Connects to 72, 98, 1
 Walking net DC1.SGN_bF$buf0.
 Has 7 nodes.
 After segmenting, has 10 routes.
 Driver node BUFX4_6/Y
-Connects to 123, 29, 2
-Connects to 123, 29, 2
-Connects to 132, 29, 2
-Connects to 142, 29, 1
-Connects to 142, 29, 2
-Connects to 148, 29, 1
-Connects to 148, 29, 1
-Connects to 132, 29, 1
-Route segment 8 was not walked!
+Connects to 39, 88, 1
+Connects to 39, 88, 1
+Connects to 39, 77, 2
+Connects to 40, 76, 2
+Connects to 41, 76, 1
+Connects to 41, 76, 2
+Connects to 40, 76, 1
+Connects to 39, 77, 2
 Walking net clk.
 Has 7 nodes.
 After segmenting, has 11 routes.
 Driver node clk/pin
-Connects to 50, 118, 0
-Connects to 50, 118, 1
-Connects to 62, 88, 2
-Connects to 62, 88, 2
-Connects to 62, 69, 2
-Connects to 62, 69, 2
-Connects to 79, 49, 2
-Connects to 95, 49, 0
-Connects to 95, 49, 1
-Connects to 79, 49, 2
+Connects to 29, 49, 2
+Connects to 29, 49, 2
+Connects to 32, 85, 1
+Connects to 32, 85, 1
+Connects to 122, 89, 1
+Connects to 122, 89, 1
+Connects to 131, 89, 0
+Connects to 131, 89, 1
+Connects to 130, 38, 1
+Connects to 130, 38, 1
 Walking net OPC1.PCDELTA_15_bF$buf4.
 Has 7 nodes.
-After segmenting, has 10 routes.
+After segmenting, has 9 routes.
 Driver node BUFX4_18/Y
-Connects to 179, 118, 0
-Connects to 179, 118, 1
-Connects to 179, 118, 2
-Connects to 181, 118, 1
-Connects to 181, 118, 2
-Connects to 183, 109, 0
-Connects to 183, 109, 1
-Connects to 186, 109, 0
-Connects to 179, 118, 2
+Connects to 185, 98, 0
+Connects to 185, 98, 1
+Connects to 185, 118, 1
+Connects to 185, 118, 1
+Connects to 184, 118, 1
+Connects to 184, 118, 2
+Connects to 180, 118, 0
 Walking net OPC1.PCDELTA_15_bF$buf3.
 Has 7 nodes.
-After segmenting, has 9 routes.
+After segmenting, has 10 routes.
 Driver node BUFX4_19/Y
-Connects to 49, 69, 1
-Connects to 48, 69, 0
-Connects to 49, 69, 2
-Connects to 44, 69, 0
-Connects to 44, 69, 1
-Connects to 40, 74, 1
-Connects to 40, 74, 2
-Connects to 37, 78, 0
+Connects to 116, 97, 2
+Connects to 116, 97, 2
+Connects to 112, 97, 1
+Connects to 112, 97, 2
+Connects to 111, 118, 0
+Connects to 111, 118, 1
+Connects to 113, 118, 1
+Connects to 113, 118, 2
 Walking net OPC1.PCDELTA_15_bF$buf2.
 Has 7 nodes.
-After segmenting, has 10 routes.
+After segmenting, has 11 routes.
 Driver node BUFX4_20/Y
-Connects to 178, 98, 0
-Connects to 178, 98, 1
-Connects to 178, 98, 2
-Connects to 180, 98, 1
-Connects to 180, 98, 2
-Connects to 183, 89, 0
-Connects to 178, 98, 2
-Connects to 170, 98, 1
-Connects to 170, 98, 2
+Connects to 47, 58, 0
+Connects to 47, 58, 1
+Connects to 30, 49, 0
+Connects to 30, 49, 1
+Connects to 25, 48, 1
+Connects to 25, 48, 2
+Connects to 20, 49, 0
+Connects to 20, 49, 1
+Connects to 16, 58, 1
+Connects to 16, 58, 2
 Walking net OPC1.PCDELTA_15_bF$buf1.
 Has 7 nodes.
-After segmenting, has 10 routes.
+After segmenting, has 9 routes.
 Driver node BUFX4_21/Y
-Connects to 166, 118, 0
-Connects to 166, 118, 0
-Connects to 166, 118, 1
-Connects to 169, 118, 1
-Connects to 170, 118, 0
-Connects to 170, 118, 1
-Connects to 170, 109, 0
-Connects to 170, 109, 1
-Connects to 169, 118, 2
+Connects to 183, 9, 1
+Connects to 183, 9, 2
+Connects to 180, 9, 1
+Connects to 180, 9, 2
+Connects to 176, 9, 0
+Connects to 184, 38, 0
+Connects to 184, 38, 1
 Walking net DC1.WDATA<0>.
 Has 7 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 10 routes.
 Driver node DFFPOSX1_18/Q
-Connects to 120, 115, 2
-Connects to 120, 79, 2
-Connects to 105, 79, 1
-Connects to 105, 79, 2
-Connects to 120, 79, 2
-Connects to 135, 84, 1
-Connects to 135, 89, 0
-Connects to 135, 89, 1
-Connects to 135, 84, 1
-Connects to 120, 115, 2
+Connects to 133, 29, 2
+Connects to 133, 29, 2
+Route segment 3 was not walked!
+Route segment 4 was not walked!
+Route segment 5 was not walked!
+Route segment 6 was not walked!
+Route segment 7 was not walked!
+Route segment 8 was not walked!
+Route segment 9 was not walked!
 Walking net DC1.WDATA<1>.
 Has 7 nodes.
 After segmenting, has 11 routes.
 Driver node DFFPOSX1_19/Q
-Connects to 177, 85, 1
-Connects to 177, 85, 2
-Connects to 159, 95, 1
-Connects to 159, 95, 1
-Connects to 140, 95, 1
-Connects to 140, 95, 2
-Connects to 136, 90, 0
-Connects to 136, 90, 1
-Connects to 102, 77, 0
-Connects to 102, 77, 1
+Connects to 123, 112, 1
+Connects to 120, 112, 2
+Connects to 120, 112, 2
+Connects to 115, 70, 2
+Connects to 115, 70, 2
+Connects to 110, 70, 1
+Connects to 110, 70, 2
+Connects to 107, 70, 1
+Connects to 107, 70, 2
+Connects to 123, 112, 2
 Walking net DC1.WDATA<2>.
 Has 7 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 10 routes.
 Driver node DFFPOSX1_20/Q
-Connects to 140, 72, 1
-Connects to 140, 72, 1
-Connects to 121, 73, 1
-Connects to 121, 73, 2
-Connects to 111, 73, 1
-Connects to 111, 73, 2
-Connects to 99, 73, 1
-Connects to 99, 73, 2
-Connects to 95, 77, 0
-Connects to 95, 77, 1
+Connects to 134, 90, 0
+Connects to 134, 90, 1
+Connects to 108, 81, 1
+Connects to 108, 81, 2
+Connects to 103, 81, 1
+Connects to 103, 81, 2
+Connects to 101, 69, 0
+Connects to 101, 69, 1
 Walking net _212_.
 Has 7 nodes.
-After segmenting, has 11 routes.
+After segmenting, has 10 routes.
 Driver node AND2X2_15/Y
-Connects to 25, 28, 1
-Connects to 25, 28, 2
-Connects to 28, 28, 2
-Connects to 29, 31, 0
-Connects to 29, 31, 1
-Connects to 29, 47, 0
-Connects to 29, 47, 1
-Connects to 28, 28, 2
-Connects to 28, 10, 2
-Connects to 28, 10, 2
+Connects to 107, 28, 2
+Connects to 110, 28, 0
+Connects to 110, 28, 1
+Connects to 110, 17, 0
+Connects to 110, 17, 1
+Connects to 110, 28, 1
+Connects to 107, 28, 2
+Connects to 103, 31, 0
+Connects to 103, 31, 1
 Walking net _223_.
 Has 7 nodes.
 After segmenting, has 11 routes.
 Driver node NAND2X1_32/Y
-Connects to 23, 18, 0
-Connects to 23, 18, 1
-Connects to 51, 11, 1
-Connects to 51, 11, 2
-Connects to 71, 11, 1
-Connects to 71, 11, 1
-Connects to 73, 17, 2
-Connects to 73, 17, 2
-Connects to 85, 17, 1
-Connects to 85, 17, 1
+Connects to 28, 28, 1
+Connects to 27, 14, 1
+Connects to 27, 13, 1
+Connects to 27, 13, 1
+Connects to 27, 14, 1
+Connects to 28, 28, 1
+Connects to 54, 28, 1
+Connects to 54, 28, 2
+Connects to 63, 11, 0
+Connects to 63, 11, 1
 Walking net _119_.
 Has 6 nodes.
 After segmenting, has 8 routes.
 Driver node NOR2X1_12/Y
-Connects to 70, 99, 2
-Connects to 70, 99, 2
-Connects to 64, 99, 1
-Connects to 64, 99, 1
-Connects to 25, 99, 1
-Connects to 25, 99, 1
+Connects to 108, 53, 1
+Connects to 140, 55, 1
+Connects to 140, 55, 1
+Connects to 147, 49, 0
+Connects to 147, 49, 1
+Connects to 148, 18, 0
+Connects to 108, 53, 1
 Walking net _119__bF$buf4.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node BUFX4_13/Y
-Connects to 21, 110, 0
-Connects to 21, 110, 0
-Connects to 21, 110, 1
-Connects to 21, 110, 1
-Connects to 26, 110, 1
-Connects to 26, 110, 2
-Connects to 34, 117, 0
-Connects to 34, 117, 1
+Connects to 151, 29, 0
+Connects to 151, 29, 1
+Connects to 163, 29, 1
+Connects to 163, 29, 1
+Connects to 163, 29, 2
+Connects to 168, 29, 1
+Connects to 168, 29, 2
+Connects to 163, 29, 1
 Walking net _119__bF$buf3.
 Has 6 nodes.
 After segmenting, has 8 routes.
 Driver node BUFX4_14/Y
-Connects to 65, 110, 0
-Connects to 71, 110, 1
-Connects to 71, 110, 2
-Connects to 75, 110, 1
-Connects to 75, 110, 2
-Connects to 82, 110, 1
-Connects to 82, 110, 2
+Connects to 156, 108, 1
+Connects to 156, 108, 2
+Connects to 163, 108, 1
+Connects to 163, 108, 2
+Connects to 169, 108, 1
+Connects to 169, 108, 2
+Connects to 174, 109, 0
 Walking net _119__bF$buf2.
 Has 6 nodes.
-After segmenting, has 7 routes.
+After segmenting, has 9 routes.
 Driver node BUFX4_15/Y
-Connects to 60, 98, 0
-Connects to 55, 98, 2
-Connects to 54, 98, 1
-Connects to 54, 98, 2
-Connects to 39, 89, 0
-Connects to 55, 98, 1
+Connects to 157, 39, 1
+Connects to 157, 39, 2
+Connects to 164, 39, 1
+Connects to 164, 49, 1
+Connects to 164, 49, 1
+Connects to 164, 39, 2
+Connects to 173, 39, 1
+Connects to 173, 39, 2
 Walking net _119__bF$buf1.
 Has 6 nodes.
 After segmenting, has 8 routes.
 Driver node BUFX4_16/Y
-Connects to 21, 97, 0
-Connects to 21, 97, 0
-Connects to 23, 78, 0
-Connects to 23, 78, 1
-Connects to 23, 77, 0
-Connects to 23, 77, 1
+Connects to 142, 17, 0
+Connects to 142, 18, 2
+Connects to 140, 18, 1
+Connects to 140, 18, 2
+Connects to 137, 18, 1
+Connects to 137, 18, 2
+Connects to 142, 18, 2
 Walking net _119__bF$buf0.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node BUFX4_17/Y
-Connects to 73, 97, 2
-Connects to 73, 97, 2
-Connects to 88, 97, 2
-Connects to 92, 97, 1
-Connects to 92, 97, 1
-Connects to 92, 97, 2
-Connects to 92, 97, 1
-Connects to 88, 97, 1
+Connects to 102, 57, 1
+Connects to 102, 57, 1
+Connects to 94, 93, 1
+Connects to 94, 93, 2
+Connects to 24, 93, 1
+Connects to 24, 93, 2
+Connects to 23, 50, 2
+Connects to 23, 50, 2
 Walking net OPC1.PCDELTA<15>.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node OAI21X1_58/Y
-Connects to 55, 69, 2
-Connects to 55, 69, 2
-Connects to 172, 89, 1
-Connects to 172, 89, 1
-Connects to 172, 98, 0
-Connects to 172, 98, 1
-Connects to 172, 108, 2
-Connects to 172, 108, 2
+Connects to 53, 58, 0
+Connects to 53, 58, 1
+Connects to 114, 84, 1
+Connects to 114, 84, 1
+Connects to 184, 84, 2
+Connects to 184, 84, 2
+Connects to 184, 20, 3
+Connects to 184, 20, 2
 Walking net OPC1.PCDELTA_15_bF$buf0.
 Has 6 nodes.
-After segmenting, has 8 routes.
+After segmenting, has 9 routes.
 Driver node BUFX4_22/Y
-Connects to 174, 102, 1
-Connects to 174, 102, 1
-Connects to 184, 99, 1
-Connects to 184, 98, 0
-Connects to 184, 98, 1
-Connects to 185, 78, 0
-Connects to 184, 99, 2
+Connects to 154, 9, 0
+Connects to 154, 9, 1
+Connects to 154, 9, 2
+Connects to 154, 9, 2
+Connects to 152, 9, 1
+Connects to 152, 9, 2
+Connects to 149, 9, 1
+Connects to 149, 9, 2
 Walking net DPC1.DP<1>.
 Has 6 nodes.
-After segmenting, has 8 routes.
+After segmenting, has 9 routes.
 Driver node DFFPOSX1_29/Q
-Connects to 159, 71, 1
-Connects to 159, 71, 2
-Connects to 153, 63, 1
-Connects to 153, 63, 1
-Connects to 126, 58, 0
-Connects to 126, 58, 1
+Connects to 22, 100, 1
+Connects to 22, 100, 2
+Connects to 28, 100, 2
+Connects to 28, 100, 1
+Connects to 28, 89, 0
+Connects to 28, 89, 1
+Connects to 21, 78, 0
+Connects to 21, 78, 1
 Walking net DPC1.DP<2>.
 Has 6 nodes.
-After segmenting, has 8 routes.
+After segmenting, has 6 routes.
 Driver node DFFPOSX1_30/Q
-Connects to 161, 57, 0
-Connects to 161, 57, 1
-Connects to 146, 58, 1
-Connects to 146, 58, 2
-Connects to 131, 58, 1
-Connects to 131, 58, 2
+Connects to 12, 90, 1
+Connects to 12, 78, 0
+Connects to 16, 77, 0
+Connects to 12, 90, 1
 Walking net DPC1.DP<5>.
 Has 6 nodes.
-After segmenting, has 8 routes.
+After segmenting, has 9 routes.
 Driver node DFFPOSX1_33/Q
-Connects to 143, 38, 0
-Connects to 143, 38, 1
-Connects to 159, 33, 1
-Connects to 159, 33, 1
-Connects to 172, 39, 1
-Connects to 172, 39, 1
+Connects to 57, 57, 0
+Connects to 57, 57, 1
+Connects to 55, 68, 0
+Connects to 55, 68, 1
+Connects to 73, 69, 1
+Connects to 73, 69, 1
+Connects to 75, 69, 0
+Connects to 75, 69, 0
 Walking net DPC1.DP<6>.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node DFFPOSX1_34/Q
-Connects to 180, 32, 2
-Connects to 180, 32, 2
-Connects to 170, 37, 0
-Connects to 170, 37, 1
-Connects to 169, 37, 1
-Connects to 169, 37, 2
-Connects to 157, 37, 0
-Connects to 157, 37, 1
+Connects to 92, 82, 2
+Connects to 92, 82, 2
+Connects to 92, 71, 1
+Connects to 92, 71, 2
+Connects to 72, 71, 1
+Connects to 72, 71, 2
+Connects to 58, 77, 0
+Connects to 58, 77, 1
 Walking net DPC1.DP<8>.
 Has 6 nodes.
 After segmenting, has 8 routes.
 Driver node DFFPOSX1_36/Q
-Connects to 111, 37, 0
-Connects to 111, 37, 1
-Connects to 141, 31, 0
-Connects to 141, 31, 1
-Connects to 143, 29, 0
-Connects to 152, 28, 1
-Connects to 152, 28, 1
+Connects to 40, 92, 1
+Connects to 40, 92, 2
+Connects to 62, 92, 1
+Connects to 62, 92, 2
+Connects to 71, 92, 1
+Connects to 71, 92, 2
 Walking net DPC1.DP<9>.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node DFFPOSX1_37/Q
-Connects to 182, 16, 1
-Connects to 182, 16, 1
-Connects to 167, 17, 0
-Connects to 167, 17, 1
-Connects to 153, 26, 1
-Connects to 153, 26, 2
-Connects to 147, 11, 0
-Connects to 147, 11, 1
+Connects to 58, 92, 1
+Connects to 58, 96, 0
+Connects to 58, 96, 1
+Connects to 58, 97, 1
+Connects to 54, 111, 1
+Connects to 54, 111, 1
+Connects to 58, 97, 1
+Connects to 58, 92, 1
 Walking net DC1.WDATA<6>.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node DFFPOSX1_24/Q
-Connects to 164, 87, 1
-Connects to 164, 87, 1
-Connects to 142, 88, 1
-Connects to 142, 88, 2
-Connects to 138, 88, 1
-Connects to 138, 88, 2
-Connects to 125, 89, 1
-Connects to 125, 89, 1
+Connects to 175, 100, 1
+Connects to 175, 100, 1
+Connects to 153, 99, 1
+Connects to 153, 98, 0
+Connects to 153, 98, 1
+Connects to 153, 90, 1
+Connects to 153, 90, 1
+Connects to 153, 99, 2
 Walking net _107_.
 Has 6 nodes.
-After segmenting, has 9 routes.
+After segmenting, has 8 routes.
 Driver node INVX4_1/Y
-Connects to 122, 105, 3
-Connects to 123, 107, 2
-Connects to 123, 107, 2
-Connects to 124, 107, 1
-Connects to 124, 107, 2
-Connects to 122, 105, 2
-Connects to 83, 105, 1
-Connects to 83, 105, 2
+Connects to 139, 89, 0
+Connects to 142, 89, 1
+Connects to 142, 89, 2
+Connects to 153, 89, 2
+Connects to 153, 89, 2
+Connects to 168, 109, 0
+Connects to 168, 109, 1
 Walking net _112_.
 Has 6 nodes.
-After segmenting, has 9 routes.
+After segmenting, has 8 routes.
 Driver node INVX4_2/Y
-Connects to 126, 92, 2
-Connects to 115, 92, 1
-Connects to 115, 92, 2
-Connects to 106, 92, 1
-Connects to 106, 92, 2
-Connects to 82, 83, 1
-Connects to 82, 83, 1
-Connects to 126, 92, 2
+Connects to 147, 93, 1
+Connects to 147, 93, 2
+Connects to 141, 79, 0
+Connects to 141, 79, 1
+Connects to 140, 69, 0
+Connects to 140, 69, 1
 Walking net _126_.
 Has 6 nodes.
-After segmenting, has 8 routes.
+After segmenting, has 9 routes.
 Driver node AND2X2_2/Y
-Connects to 135, 98, 0
-Connects to 135, 98, 1
-Connects to 113, 83, 1
-Connects to 113, 83, 2
-Connects to 107, 83, 1
-Connects to 107, 83, 2
+Connects to 108, 73, 2
+Connects to 110, 78, 1
+Connects to 110, 78, 1
+Connects to 116, 78, 0
+Connects to 116, 78, 1
+Connects to 108, 73, 2
+Connects to 105, 73, 1
+Connects to 105, 73, 2
 Walking net _28_.
 Has 6 nodes.
 After segmenting, has 9 routes.
 Driver node NOR3X1_1/Y
-Connects to 85, 77, 1
-Connects to 85, 77, 2
-Connects to 84, 77, 2
-Connects to 81, 77, 1
-Connects to 81, 77, 2
-Connects to 84, 77, 1
-Connects to 84, 69, 0
-Connects to 84, 69, 1
+Connects to 110, 60, 1
+Connects to 110, 60, 1
+Connects to 122, 60, 1
+Connects to 122, 60, 1
+Connects to 125, 76, 1
+Connects to 125, 76, 1
+Connects to 140, 76, 1
+Connects to 140, 76, 2
 Walking net _167_.
 Has 6 nodes.
 After segmenting, has 8 routes.
 Driver node INVX2_8/Y
-Connects to 154, 19, 1
-Connects to 154, 19, 2
-Connects to 149, 31, 1
-Connects to 149, 36, 1
-Connects to 142, 36, 1
-Connects to 142, 36, 2
-Connects to 149, 31, 1
+Connects to 72, 89, 1
+Connects to 72, 76, 0
+Connects to 72, 76, 0
+Connects to 72, 76, 1
+Connects to 61, 76, 1
+Connects to 61, 76, 1
+Connects to 72, 89, 1
 Walking net DPC1.DP<4>.
 Has 5 nodes.
-After segmenting, has 7 routes.
+After segmenting, has 6 routes.
 Driver node DFFPOSX1_32/Q
-Connects to 183, 53, 2
-Connects to 183, 53, 2
-Connects to 174, 53, 1
-Connects to 174, 50, 0
-Connects to 174, 50, 1
-Connects to 174, 53, 2
+Connects to 72, 57, 0
+Connects to 72, 57, 1
+Connects to 56, 70, 1
+Connects to 56, 70, 2
 Walking net DPC1.DP<7>.
 Has 5 nodes.
 After segmenting, has 7 routes.
 Driver node DFFPOSX1_35/Q
-Connects to 104, 41, 1
-Connects to 104, 41, 1
-Connects to 122, 41, 1
-Connects to 122, 41, 1
-Connects to 168, 39, 0
-Connects to 168, 39, 1
+Connects to 101, 90, 0
+Connects to 101, 90, 1
+Connects to 85, 91, 1
+Connects to 85, 91, 1
+Connects to 79, 91, 1
+Connects to 79, 91, 1
 Walking net DPC1.DP<10>.
 Has 5 nodes.
-After segmenting, has 7 routes.
+After segmenting, has 5 routes.
 Driver node DFFPOSX1_38/Q
-Connects to 170, 15, 1
-Connects to 170, 15, 2
-Connects to 158, 10, 0
-Connects to 158, 10, 1
-Connects to 144, 10, 1
-Connects to 144, 10, 2
+Connects to 40, 110, 2
+Connects to 40, 110, 2
+Connects to 52, 110, 0
 Walking net DPC1.DP<13>.
 Has 5 nodes.
-After segmenting, has 6 routes.
+After segmenting, has 7 routes.
 Driver node DFFPOSX1_41/Q
-Connects to 107, 31, 0
-Connects to 117, 28, 1
-Connects to 117, 28, 1
-Connects to 122, 28, 1
-Connects to 122, 28, 1
+Connects to 97, 111, 0
+Connects to 97, 111, 1
+Connects to 90, 112, 2
+Connects to 90, 112, 2
+Connects to 89, 98, 0
+Connects to 89, 98, 1
 Walking net DC1.WDATA<7>.
 Has 5 nodes.
-After segmenting, has 6 routes.
+After segmenting, has 7 routes.
 Driver node DFFPOSX1_25/Q
-Connects to 119, 95, 1
-Connects to 119, 95, 1
-Connects to 104, 91, 1
-Connects to 104, 91, 2
+Connects to 182, 87, 1
+Connects to 182, 87, 2
+Connects to 170, 87, 1
+Connects to 170, 87, 2
+Connects to 155, 87, 2
+Connects to 155, 87, 1
 Walking net _111_.
 Has 5 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 7 routes.
 Driver node INVX2_2/Y
-Route segment 1 was not walked!
-Route segment 2 was not walked!
-Route segment 3 was not walked!
+Connects to 171, 74, 1
+Connects to 171, 74, 1
+Connects to 145, 73, 1
+Connects to 145, 73, 2
+Connects to 142, 68, 2
+Connects to 142, 68, 3
 Walking net DC1.IZ.
 Has 5 nodes.
 After segmenting, has 7 routes.
 Driver node NOR2X1_10/Y
-Connects to 42, 61, 2
-Connects to 36, 59, 1
-Connects to 36, 59, 1
-Connects to 42, 61, 1
-Connects to 42, 37, 1
-Connects to 42, 37, 1
+Connects to 108, 40, 1
+Connects to 108, 40, 2
+Connects to 104, 40, 1
+Connects to 104, 40, 1
+Connects to 88, 41, 1
+Connects to 88, 41, 2
 Walking net _40_.
 Has 5 nodes.
-After segmenting, has 6 routes.
+After segmenting, has 7 routes.
 Driver node INVX2_6/Y
-Connects to 77, 69, 0
-Connects to 74, 69, 1
-Connects to 74, 69, 2
-Connects to 71, 98, 2
-Connects to 71, 98, 2
+Connects to 146, 58, 0
+Connects to 146, 58, 1
+Connects to 148, 58, 1
+Connects to 148, 58, 2
+Connects to 160, 57, 0
+Connects to 160, 57, 1
 Walking net _162_.
 Has 5 nodes.
 After segmenting, has 7 routes.
 Driver node NAND2X1_21/Y
-Connects to 150, 46, 1
-Connects to 150, 46, 2
-Connects to 157, 46, 2
-Connects to 162, 46, 1
-Connects to 162, 46, 2
-Connects to 157, 46, 1
+Connects to 44, 75, 2
+Connects to 45, 75, 1
+Connects to 45, 75, 2
+Connects to 52, 75, 1
+Connects to 52, 75, 1
+Connects to 44, 75, 1
 Walking net _213_.
 Has 5 nodes.
-After segmenting, has 7 routes.
+After segmenting, has 6 routes.
 Driver node INVX2_10/Y
-Connects to 29, 48, 0
-Connects to 29, 48, 1
-Connects to 27, 39, 0
-Connects to 27, 39, 1
-Connects to 32, 31, 1
-Connects to 32, 31, 1
+Connects to 95, 33, 1
+Connects to 95, 39, 0
+Connects to 95, 39, 1
+Connects to 95, 33, 1
 Walking net _244_.
 Has 5 nodes.
-After segmenting, has 7 routes.
+After segmenting, has 6 routes.
 Driver node NAND2X1_36/Y
-Connects to 18, 43, 2
-Connects to 18, 43, 2
-Connects to 28, 43, 1
-Connects to 28, 43, 2
-Connects to 43, 43, 1
-Connects to 43, 43, 2
+Connects to 87, 35, 1
+Connects to 87, 35, 1
+Connects to 79, 36, 1
+Connects to 79, 36, 1
 Walking net DPC1.DP<3>.
 Has 4 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 4 routes.
 Driver node DFFPOSX1_31/Q
-Connects to 134, 60, 1
-Connects to 134, 60, 1
-Connects to 145, 60, 1
-Connects to 145, 60, 1
+Connects to 20, 71, 1
+Connects to 20, 71, 1
 Walking net DPC1.DP<11>.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node DFFPOSX1_39/Q
-Connects to 112, 15, 2
-Connects to 112, 15, 2
+Connects to 20, 116, 2
+Connects to 20, 116, 2
+Connects to 20, 117, 0
 Walking net DPC1.DP<12>.
 Has 4 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 4 routes.
 Driver node DFFPOSX1_40/Q
-Connects to 97, 13, 1
-Connects to 97, 13, 1
-Connects to 116, 19, 1
-Connects to 116, 19, 1
+Connects to 89, 116, 1
+Connects to 89, 116, 2
 Walking net _108_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node INVX2_1/Y
-Connects to 150, 94, 2
-Connects to 150, 94, 2
-Connects to 61, 101, 1
-Connects to 61, 101, 2
+Connects to 161, 69, 2
+Connects to 161, 69, 2
+Connects to 163, 69, 3
+Connects to 163, 69, 3
 Walking net _113_.
 Has 4 nodes.
-After segmenting, has 4 routes.
+After segmenting, has 5 routes.
 Driver node NOR2X1_9/Y
-Connects to 139, 96, 0
-Connects to 132, 96, 1
-Connects to 132, 96, 2
+Connects to 106, 75, 1
+Connects to 106, 75, 1
+Connects to 122, 75, 1
+Connects to 122, 75, 2
 Walking net _115_.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node INVX2_3/Y
-Connects to 68, 119, 0
-Connects to 83, 119, 1
-Connects to 83, 119, 2
+Connects to 105, 48, 0
+Connects to 109, 48, 1
+Connects to 109, 48, 2
 Walking net _120_.
 Has 4 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 4 routes.
 Driver node INVX2_4/Y
-Connects to 118, 111, 2
-Connects to 118, 111, 2
-Connects to 134, 111, 1
-Connects to 134, 111, 1
+Connects to 141, 108, 1
+Connects to 141, 108, 2
 Walking net _122_.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node INVX2_5/Y
-Connects to 106, 118, 0
-Connects to 82, 118, 1
-Connects to 82, 118, 1
+Connects to 112, 49, 1
+Connects to 112, 49, 1
 Walking net _151_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node AND2X2_11/Y
-Connects to 132, 59, 1
-Connects to 132, 59, 2
-Connects to 136, 57, 1
-Connects to 136, 57, 1
+Connects to 25, 79, 1
+Connects to 25, 79, 2
+Connects to 36, 79, 1
+Connects to 36, 79, 1
 Walking net _155_.
 Has 4 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 4 routes.
 Driver node INVX2_7/Y
-Connects to 135, 52, 1
-Connects to 135, 52, 1
-Connects to 151, 52, 1
-Connects to 151, 52, 2
+Connects to 22, 70, 0
+Connects to 39, 70, 1
+Connects to 39, 70, 2
 Walking net _157_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NOR3X1_4/Y
-Connects to 146, 50, 0
-Connects to 146, 50, 1
-Connects to 152, 47, 1
-Connects to 152, 47, 2
+Connects to 36, 72, 1
+Connects to 36, 72, 2
+Connects to 38, 67, 0
+Connects to 38, 67, 1
 Walking net _168_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NAND3X1_11/Y
-Connects to 152, 40, 2
-Connects to 142, 40, 1
-Connects to 142, 40, 2
-Connects to 152, 40, 2
+Connects to 63, 67, 1
+Connects to 63, 67, 2
+Connects to 71, 67, 1
+Connects to 71, 67, 2
 Walking net _177_.
 Has 4 nodes.
-After segmenting, has 4 routes.
+After segmenting, has 5 routes.
 Driver node NOR3X1_5/Y
-Connects to 138, 32, 1
-Connects to 138, 32, 2
-Connects to 131, 38, 0
+Connects to 78, 87, 0
+Connects to 78, 87, 1
+Connects to 86, 89, 0
+Connects to 86, 89, 1
 Walking net _190_.
 Has 4 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 4 routes.
 Driver node NAND3X1_12/Y
-Connects to 137, 15, 1
-Connects to 136, 9, 0
-Connects to 136, 9, 1
-Connects to 137, 15, 1
+Connects to 71, 95, 1
+Connects to 71, 95, 2
+Connects to 56, 98, 0
 Walking net _194_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NAND3X1_13/Y
-Connects to 152, 17, 0
-Connects to 152, 17, 1
-Connects to 146, 17, 1
-Connects to 146, 17, 1
+Connects to 67, 97, 0
+Connects to 67, 97, 1
+Connects to 67, 109, 0
+Connects to 67, 109, 1
 Walking net _131_.
 Has 4 nodes.
-After segmenting, has 4 routes.
+After segmenting, has 3 routes.
 Driver node AOI21X1_21/Y
-Connects to 119, 17, 1
-Connects to 119, 17, 1
+Connects to 59, 118, 0
+Connects to 71, 118, 0
 Walking net _214_.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node OAI21X1_46/Y
-Connects to 29, 9, 0
-Connects to 29, 9, 1
+Connects to 100, 28, 1
+Connects to 100, 28, 1
+Connects to 106, 18, 0
 Walking net _215_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NOR2X1_42/Y
-Connects to 45, 28, 1
-Connects to 45, 28, 2
-Connects to 54, 28, 0
-Connects to 54, 28, 1
+Connects to 86, 23, 1
+Connects to 86, 23, 2
+Connects to 45, 22, 1
+Connects to 45, 22, 1
 Walking net _218_.
 Has 4 nodes.
-After segmenting, has 5 routes.
+After segmenting, has 4 routes.
 Driver node NOR2X1_43/Y
-Connects to 38, 20, 1
-Connects to 38, 20, 1
-Connects to 47, 16, 0
-Connects to 47, 16, 1
+Connects to 49, 16, 0
+Connects to 49, 16, 1
 Walking net _226_.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node INVX2_11/Y
-Connects to 75, 27, 1
-Connects to 75, 27, 1
+Connects to 42, 9, 0
+Connects to 45, 9, 1
+Connects to 45, 9, 2
 Walking net _232_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NAND2X1_35/Y
-Connects to 90, 16, 2
-Connects to 90, 16, 2
-Connects to 84, 16, 0
-Connects to 84, 16, 1
+Connects to 17, 11, 2
+Connects to 17, 11, 2
+Connects to 24, 11, 1
+Connects to 24, 11, 1
 Walking net _233_.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node INVX2_12/Y
-Connects to 70, 9, 0
-Connects to 73, 9, 1
-Connects to 73, 9, 2
+Connects to 27, 9, 1
+Connects to 27, 9, 2
 Walking net _237_.
 Has 4 nodes.
 After segmenting, has 4 routes.
 Driver node INVX2_13/Y
-Connects to 31, 8, 2
-Connects to 31, 8, 2
-Connects to 16, 9, 0
+Connects to 76, 19, 2
+Connects to 76, 19, 2
 Walking net _243_.
 Has 4 nodes.
-After segmenting, has 4 routes.
+After segmenting, has 5 routes.
 Driver node NOR3X1_11/Y
-Connects to 57, 30, 1
-Connects to 57, 30, 1
-Connects to 55, 50, 0
+Connects to 52, 12, 1
+Connects to 52, 12, 1
+Connects to 51, 34, 1
+Connects to 51, 34, 1
 Walking net _257_.
 Has 4 nodes.
-After segmenting, has 4 routes.
+After segmenting, has 5 routes.
 Driver node NAND2X1_38/Y
-Connects to 27, 35, 2
-Connects to 27, 35, 2
+Connects to 90, 36, 1
+Connects to 90, 36, 2
+Connects to 89, 35, 1
+Connects to 89, 35, 1
 Walking net _259_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NOR3X1_13/Y
-Connects to 40, 33, 1
-Connects to 40, 33, 2
-Connects to 29, 17, 0
-Connects to 29, 17, 1
+Connects to 77, 10, 1
+Connects to 77, 10, 1
+Connects to 79, 30, 0
+Connects to 79, 30, 1
 Walking net _266_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NOR3X1_14/Y
-Connects to 47, 35, 1
-Connects to 47, 35, 1
-Connects to 45, 13, 1
-Connects to 45, 13, 1
+Connects to 71, 34, 2
+Connects to 62, 34, 1
+Connects to 62, 34, 1
+Connects to 71, 34, 2
 Walking net _280_.
 Has 4 nodes.
 After segmenting, has 5 routes.
 Driver node NAND2X1_42/Y
-Connects to 48, 22, 1
-Connects to 48, 22, 2
-Connects to 40, 22, 1
-Connects to 40, 22, 2
+Connects to 43, 26, 1
+Connects to 43, 26, 1
+Connects to 64, 27, 1
+Connects to 64, 27, 1
 Walking net _1_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node NAND2X1_1/Y
+Connects to 96, 51, 0
+Connects to 96, 51, 1
 Walking net _2_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node OR2X2_1/Y
-Connects to 19, 59, 2
-Connects to 19, 59, 2
+Connects to 101, 48, 1
+Connects to 101, 48, 1
 Walking net _3_.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4431,33 +4437,33 @@ Walking net _4_.
 Has 3 nodes.
 After segmenting, has 2 routes.
 Driver node NAND2X1_2/Y
-Connects to 63, 58, 0
+Connects to 98, 58, 0
 Walking net _7_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node NAND2X1_4/Y
-Connects to 15, 56, 1
-Connects to 15, 56, 2
+Connects to 124, 16, 0
 Walking net _9_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node NAND2X1_5/Y
+Connects to 98, 50, 1
+Connects to 98, 50, 2
 Walking net DPC1.DP<14>.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node DFFPOSX1_42/Q
+Connects to 31, 120, 1
+Connects to 31, 120, 2
 Walking net DC1.IR.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node DFFPOSX1_26/Q
-Connects to 34, 70, 1
-Connects to 34, 70, 1
+Connects to 132, 118, 0
 Walking net DC1.OUTPD<0>.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node DFFPOSX1_2/Q
-Connects to 42, 116, 2
-Connects to 42, 116, 2
 Walking net DC1.OUTPD<1>.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4468,44 +4474,42 @@ After segmenting, has 2 routes.
 Driver node DFFPOSX1_4/Q
 Walking net DC1.OUTPD<3>.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node DFFPOSX1_5/Q
+Connects to 181, 36, 2
+Connects to 181, 36, 2
 Walking net DC1.OUTPD<4>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_6/Q
-Connects to 58, 100, 1
-Connects to 58, 100, 1
+Connects to 167, 52, 1
+Connects to 167, 52, 1
 Walking net DC1.OUTPD<5>.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node DFFPOSX1_7/Q
-Connects to 57, 112, 1
-Connects to 57, 112, 1
 Walking net DC1.OUTPD<6>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_8/Q
-Connects to 26, 78, 1
-Connects to 26, 78, 1
+Connects to 167, 31, 1
+Connects to 167, 31, 1
 Walking net DC1.OUTPD<7>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_9/Q
-Connects to 77, 100, 1
-Connects to 77, 100, 2
+Connects to 129, 7, 1
+Connects to 129, 7, 2
 Walking net DC1.OUTPD<8>.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node DFFPOSX1_10/Q
-Connects to 17, 116, 0
-Connects to 17, 116, 1
 Walking net DC1.OUTPD<9>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_11/Q
-Connects to 54, 92, 1
-Connects to 54, 92, 2
+Connects to 127, 32, 0
+Connects to 127, 32, 1
 Walking net DC1.OUTPD<10>.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4514,56 +4518,58 @@ Walking net DC1.OUTPD<11>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_13/Q
-Connects to 35, 91, 1
-Connects to 35, 91, 1
+Connects to 180, 112, 2
+Connects to 180, 112, 2
 Walking net DC1.OUTPD<12>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_14/Q
-Connects to 37, 118, 2
-Connects to 37, 118, 2
+Connects to 7, 56, 2
+Connects to 7, 56, 2
 Walking net DC1.OUTPD<13>.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node DFFPOSX1_15/Q
+Connects to 160, 16, 0
+Connects to 160, 16, 1
 Walking net DC1.OUTPD<14>.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node DFFPOSX1_16/Q
-Connects to 18, 111, 1
-Connects to 18, 111, 1
+Connects to 106, 103, 1
+Connects to 106, 103, 2
 Walking net DC1.OUTPD<15>.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node DFFPOSX1_17/Q
+Connects to 147, 27, 1
+Connects to 147, 27, 1
 Walking net DC1.OW.
 Has 3 nodes.
 After segmenting, has 2 routes.
 Driver node DFFPOSX1_27/Q
+Connects to 169, 10, 0
 Walking net _109_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node NOR2X1_8/Y
-Connects to 69, 77, 2
-Connects to 69, 77, 2
 Walking net _110_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NAND3X1_1/Y
-Connects to 57, 76, 2
-Connects to 57, 76, 2
+Connects to 142, 66, 1
+Connects to 142, 66, 2
 Walking net _114_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NAND3X1_2/Y
-Connects to 65, 81, 1
-Connects to 65, 81, 2
+Connects to 137, 67, 1
+Connects to 137, 67, 1
 Walking net _118_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node INVX1_4/Y
-Connects to 81, 109, 1
-Connects to 81, 109, 1
+Connects to 125, 50, 0
 Walking net _121_.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4572,18 +4578,20 @@ Walking net _18_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node INVX1_5/Y
-Connects to 156, 108, 1
-Connects to 156, 108, 1
+Connects to 150, 110, 0
+Connects to 150, 110, 1
 Walking net _25_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node MUX2X1_4/Y
-Connects to 123, 110, 0
+Connects to 138, 90, 0
+Connects to 138, 90, 1
 Walking net _31_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node OAI21X1_6/Y
-Connects to 85, 57, 0
+Connects to 132, 37, 0
+Connects to 132, 37, 1
 Walking net _34_.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4592,121 +4600,125 @@ Walking net _41_.
 Has 3 nodes.
 After segmenting, has 2 routes.
 Driver node INVX1_8/Y
-Connects to 87, 70, 0
 Walking net _42_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node NAND2X1_13/Y
-Connects to 104, 71, 0
-Connects to 104, 71, 1
+Connects to 118, 71, 0
 Walking net _43_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node NAND2X1_14/Y
+Connects to 120, 70, 1
+Connects to 120, 70, 0
 Walking net _46_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node AOI22X1_2/Y
-Connects to 79, 70, 1
-Connects to 79, 70, 2
+Connects to 147, 57, 0
 Walking net _55_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node AND2X2_6/Y
-Connects to 105, 80, 1
-Connects to 105, 80, 2
+Connects to 111, 79, 1
+Connects to 111, 79, 2
 Walking net _57_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node OAI21X1_15/Y
-Connects to 124, 76, 1
-Connects to 124, 76, 2
+Connects to 158, 77, 0
+Connects to 158, 77, 1
 Walking net _65_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NOR3X1_2/Y
-Connects to 83, 80, 1
-Connects to 83, 80, 2
+Connects to 128, 80, 2
+Connects to 128, 80, 2
 Walking net _68_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node NAND3X1_6/Y
-Connects to 116, 90, 0
+Connects to 128, 86, 1
+Connects to 128, 86, 1
 Walking net _69_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node OAI21X1_20/Y
-Connects to 137, 91, 1
-Connects to 137, 91, 2
+Connects to 151, 97, 0
 Walking net _165_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node INVX1_22/Y
-Connects to 153, 49, 1
-Connects to 153, 49, 2
+Connects to 51, 69, 0
 Walking net _172_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NAND2X1_24/Y
-Connects to 169, 34, 2
-Connects to 169, 34, 1
+Connects to 54, 76, 0
+Connects to 54, 76, 1
 Walking net _173_.
 Has 3 nodes.
 After segmenting, has 2 routes.
 Driver node NOR2X1_35/Y
-Connects to 155, 39, 0
+Connects to 63, 79, 0
 Walking net _181_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node INVX1_24/Y
-Connects to 123, 38, 1
-Connects to 123, 38, 1
+Connects to 83, 89, 0
+Connects to 83, 89, 1
 Walking net _185_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node NOR2X1_36/Y
-Connects to 155, 27, 1
-Connects to 155, 27, 2
 Walking net _187_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node NOR2X1_38/Y
+Connects to 64, 86, 1
+Connects to 64, 86, 2
 Walking net _197_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NOR3X1_6/Y
-Connects to 122, 10, 1
-Connects to 122, 10, 2
+Connects to 52, 117, 1
+Connects to 52, 117, 1
 Walking net _198_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node INVX1_26/Y
+Connects to 63, 110, 1
+Connects to 63, 110, 2
 Walking net _129_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node INVX2_9/Y
+Connects to 85, 119, 0
+Connects to 85, 119, 1
 Walking net _130_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node INVX1_27/Y
+Connects to 55, 115, 1
+Connects to 55, 115, 2
 Walking net _132_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NOR3X1_7/Y
-Connects to 141, 17, 1
-Connects to 141, 17, 2
+Connects to 77, 110, 1
+Connects to 77, 110, 2
 Walking net _133_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node OAI21X1_43/Y
-Connects to 117, 18, 1
-Connects to 117, 18, 2
+Connects to 77, 115, 1
+Connects to 77, 115, 2
 Walking net _136_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NAND2X1_28/Y
-Connects to 112, 10, 1
-Connects to 112, 10, 1
+Connects to 83, 108, 0
+Connects to 83, 108, 1
 Walking net _137_.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4715,30 +4727,28 @@ Walking net _216_.
 Has 3 nodes.
 After segmenting, has 2 routes.
 Driver node NAND2X1_31/Y
+Connects to 53, 16, 0
 Walking net _217_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node INVX1_30/Y
-Connects to 51, 18, 1
 Connects to 51, 18, 0
 Walking net _219_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NOR2X1_44/Y
-Connects to 49, 30, 1
-Connects to 49, 30, 0
+Connects to 50, 14, 2
+Connects to 50, 14, 2
 Walking net _222_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node INVX1_32/Y
-Connects to 18, 40, 1
-Connects to 18, 40, 2
+Connects to 37, 47, 2
+Connects to 37, 47, 2
 Walking net _228_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node NAND3X1_15/Y
-Connects to 72, 18, 0
-Connects to 72, 18, 1
 Walking net _236_.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4747,29 +4757,30 @@ Walking net _238_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node OAI21X1_48/Y
-Connects to 39, 29, 0
-Connects to 39, 29, 1
+Connects to 65, 26, 1
+Connects to 65, 26, 1
 Walking net _239_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NOR2X1_47/Y
-Connects to 84, 41, 1
-Connects to 84, 41, 2
+Connects to 40, 19, 2
+Connects to 40, 19, 2
 Walking net _245_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node NAND2X1_37/Y
+Connects to 26, 35, 1
+Connects to 26, 35, 1
 Walking net _246_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node OR2X2_4/Y
-Connects to 52, 49, 0
+Connects to 51, 39, 1
+Connects to 51, 39, 2
 Walking net _250_.
 Has 3 nodes.
-After segmenting, has 3 routes.
+After segmenting, has 2 routes.
 Driver node NAND3X1_18/Y
-Connects to 28, 53, 1
-Connects to 28, 53, 1
 Walking net _253_.
 Has 3 nodes.
 After segmenting, has 2 routes.
@@ -4778,17 +4789,18 @@ Walking net _254_.
 Has 3 nodes.
 After segmenting, has 3 routes.
 Driver node NAND3X1_19/Y
-Connects to 31, 39, 0
-Connects to 31, 39, 1
+Connects to 47, 38, 1
+Connects to 47, 38, 1
 Walking net _262_.
 Has 3 nodes.
-After segmenting, has 2 routes.
+After segmenting, has 3 routes.
 Driver node INVX1_35/Y
+Connects to 83, 16, 0
+Connects to 83, 16, 1
 Walking net _211_.
 Has 3 nodes.
 After segmenting, has 2 routes.
 Driver node INVX1_37/Y
-Route segment 1 was not walked!
 Walking net _0_.
 Has 2 nodes.
 After segmenting, has 1 routes.
@@ -6070,4 +6082,4 @@ No driver for net INPD<12>
 No driver for net INPD<13>
 No driver for net INPD<14>
 No driver for net INPD<15>
-Router script ended on Fr Sep 21 16:12:25 CEST 2018
+Router script ended on Sa Sep 22 10:02:13 CEST 2018

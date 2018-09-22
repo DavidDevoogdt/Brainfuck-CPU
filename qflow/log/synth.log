@@ -1,4 +1,4 @@
-Qflow synthesis logfile created on Fr Sep 21 16:11:15 CEST 2018
+Qflow synthesis logfile created on Sa Sep 22 09:59:25 CEST 2018
 Running yosys for verilog parsing and synthesis
 yosys  -s BFCPU.ys
 
@@ -3300,8 +3300,8 @@ ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSR".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATCH".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2".
-ABC: Library "osu018_stdcells" from "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" has 26 cells (6 skipped: 4 seq; 2 tri-state; 0 no func).  Time =     0.01 sec
-ABC: Memory =    0.36 MB. Time =     0.01 sec
+ABC: Library "osu018_stdcells" from "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" has 26 cells (6 skipped: 4 seq; 2 tri-state; 0 no func).  Time =     0.00 sec
+ABC: Memory =    0.36 MB. Time =     0.00 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
 ABC: + scorr 
@@ -3340,8 +3340,8 @@ ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSR".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATCH".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2".
-ABC: Library "osu018_stdcells" from "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" has 26 cells (6 skipped: 4 seq; 2 tri-state; 0 no func).  Time =     0.01 sec
-ABC: Memory =    0.36 MB. Time =     0.01 sec
+ABC: Library "osu018_stdcells" from "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" has 26 cells (6 skipped: 4 seq; 2 tri-state; 0 no func).  Time =     0.00 sec
+ABC: Memory =    0.36 MB. Time =     0.00 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
 ABC: + scorr 
@@ -3388,8 +3388,8 @@ ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSR".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATCH".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2".
-ABC: Library "osu018_stdcells" from "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" has 26 cells (6 skipped: 4 seq; 2 tri-state; 0 no func).  Time =     0.01 sec
-ABC: Memory =    0.36 MB. Time =     0.01 sec
+ABC: Library "osu018_stdcells" from "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" has 26 cells (6 skipped: 4 seq; 2 tri-state; 0 no func).  Time =     0.00 sec
+ABC: Memory =    0.36 MB. Time =     0.00 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
 ABC: + scorr 
@@ -3553,10 +3553,10 @@ Finding unused cells or wires in module \BFCPU..
      XNOR2X1                        13
      XOR2X1                          5
 
-End of script. Logfile hash: bc011714f1
-CPU: user 1.16s system 0.01s, MEM: 40.37 MB total, 13.30 MB resident
+End of script. Logfile hash: b21d76749e
+CPU: user 0.57s system 0.01s, MEM: 40.37 MB total, 13.32 MB resident
 Yosys 0.7 (git sha1 61f6811, gcc 6.2.0-11ubuntu1 -O2 -fdebug-prefix-map=/build/yosys-OIL3SR/yosys-0.7=. -fstack-protector-strong -fPIC -Os)
-Time spent: 18% 20x opt_expr (0 sec), 15% 19x opt_merge (0 sec), ...
+Time spent: 18% 20x opt_expr (0 sec), 14% 19x opt_merge (0 sec), ...
 Running getpowerground to determine power and ground net names.
 getpowerground.tcl /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef
 Cleaning up output syntax
@@ -3656,4 +3656,4 @@ Running blif2BSpice.
 Running spi2xspice.py
 spi2xspice.py "/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib" BFCPU.spc BFCPU.xspice
 
-Synthesis script ended on Fr Sep 21 16:11:17 CEST 2018
+Synthesis script ended on Sa Sep 22 09:59:27 CEST 2018

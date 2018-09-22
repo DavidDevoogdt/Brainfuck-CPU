@@ -1,6 +1,7 @@
 all : inp cpy bcompiler iverilogcompiler execute
 .PHONY : all
 
+
 c: inp c2bf bcompiler iverilogcompiler execute
 .PHONY : c
 

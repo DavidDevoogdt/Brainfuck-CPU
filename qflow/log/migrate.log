@@ -1,4 +1,4 @@
-Qflow file migration output log Fri Sep 21 16:12:27 2018
+Qflow file migration output log Sat Sep 22 10:02:14 2018
 
 Magic 8.1 revision 217 - Compiled on Do Sep 20 15:36:24 CEST 2018.
 Starting magic under Tcl interpreter
@@ -34,9 +34,9 @@ This action cannot be undone.
   Processed 546 subcell instances total.
   Processed 92 pins total.
   Processed 512 nets total.
-  Processed 99 special nets total.
+  Processed 87 special nets total.
   Processed 2 special nets total.
-DEF read: Processed 6912 lines.
+DEF read: Processed 6820 lines.
 Generating LEF output BFCPU.lef for cell BFCPU:
 Diagnostic:  Write LEF header for cell BFCPU
 Diagnostic:  Writing LEF output for cell BFCPU

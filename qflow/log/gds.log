@@ -1,4 +1,4 @@
-Qflow GDS output log Fri Sep 21 16:13:33 2018
+Qflow GDS output log Sat Sep 22 10:03:01 2018
 Generating GDS output for qflow-generated layout
 
 Magic 8.1 revision 217 - Compiled on Do Sep 20 15:36:24 CEST 2018.
@@ -223,8 +223,8 @@ Moving label "vdd" from space to metal1 in cell CLKBUF3.
 Moving label "A" from space to metal1 in cell CLKBUF3.
 Moving label "Y" from space to metal1 in cell CLKBUF3.
 Reading "iit_stdcells".
-File <BFCPU.mag> is already locked by pid 23675.  Opening read-only.
-Processing timestamp mismatches: FILL, BUFX2, DFFPOSX1, XNOR2X1, OAI21X1, NOR2X1, INVX1, NOR3X1, AND2X2, AOI21X1, NAND2X1, INVX2, XOR2X1, NAND3X1, OAI22X1, OR2X2, INVX4, BUFX4, INVX8, AOI22X1, MUX2X1.
+File <BFCPU.mag> is already locked by pid 17303.  Opening read-only.
+Processing timestamp mismatches: FILL, NAND2X1, BUFX2, XOR2X1, DFFPOSX1, NAND3X1, OAI21X1, NOR3X1, NOR2X1, INVX2, AOI21X1, BUFX4, INVX1, OAI22X1, AND2X2, INVX4, OR2X2, AOI22X1, XNOR2X1, MUX2X1, INVX8.
 /usr/local/share/qflow/tech/osu018/SCN6M_SUBM.10.tech: line 8209: section drc:
 	OK types "space" in more than one plane.
 	Assuming same plane (active) as edge.

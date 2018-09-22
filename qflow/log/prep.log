@@ -1,11 +1,10 @@
-Qflow project preparation output log Fri Sep 21 16:11:13 2018
+Qflow project preparation output log Sat Sep 22 09:58:29 2018
 
 --------------------------------
 Qflow project setup
 --------------------------------
 
 Technology set to osu018
-Regenerating files for existing project BFCPU
 
 No actions specified on command line;
 creating qflow script file /home/david/Documents/BFCPU/Brainfuck_CPU/qflow/qflow_exec.sh only.

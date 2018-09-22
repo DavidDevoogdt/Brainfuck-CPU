@@ -1,1 +1,0 @@
-int tab[] = { true };
