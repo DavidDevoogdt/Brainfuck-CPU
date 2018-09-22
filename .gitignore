@@ -4,3 +4,5 @@ outp/
 \.vscode/
 
 \.configure\.kate-swp
+
+storage_files/program\.bin

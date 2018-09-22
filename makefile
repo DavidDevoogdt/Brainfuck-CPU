@@ -1,13 +1,14 @@
 all : inp cpy bcompiler iverilogcompiler execute
 .PHONY : all
 
-configure: compilec2bf
+configure: compilec2bf 
 .PHONY : compilec2bf
 
 compilec2bf: c2bf/Makefile
 	make -C c2bf/
+	mkdir -p outp
 	
-c:  c2bfc inp bcompiler iverilogcompiler execute
+c:  clean c2bfc inp bcompiler iverilogcompiler execute
 .PHONY : c
 
 inp: bin/ascii2hex.py storage_files/programinput
@@ -31,6 +32,6 @@ execute: outp/cpu.out
 	
 .PHONY : clean
 clean: 
-	rm -r outp/
+	rm -r -f outp/
 	mkdir outp
 
